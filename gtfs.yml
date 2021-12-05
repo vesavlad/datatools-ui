@@ -67,6 +67,12 @@
       text: Gondola
     - value: 7
       text: Funicular
+    - value: 11
+      text: Troleybus
+    - value: 12
+      text: Monorail
+    - value: 712
+      text: School bus
   - name: "feed_version"
     required: false
     inputType: TEXT
@@ -316,6 +322,12 @@
       text: Gondola
     - value: 7
       text: Funicular
+    - value: 11
+      text: Troleybus
+    - value: 12
+      text: Monorail
+    - value: 712
+      text: School bus
     columnWidth: 6
     helpContent: The route_type field describes the type of transportation used on a route. Valid values for this field are...
   - name: route_sort_order
@@ -685,6 +697,8 @@
     inputType: DROPDOWN
     bulkEditEnabled: true
     options:
+    - value: RON
+      text: Romanian Leu (RON)
     - value: USD
       text: US dollar (USD)
     - value: AUD
