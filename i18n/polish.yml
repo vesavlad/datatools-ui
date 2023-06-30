@@ -1298,6 +1298,17 @@ components:
     title: Timetable editor keyboard shortcuts
   TimezoneSelect:
     placeholder: Select timezone...
+  TransformationsViewer:
+    columnsAdded: "Custom columns added: %columns%"
+    noTransformationApplied: No transformations applied.
+    rowsAdded: "Rows added: %rows%"
+    rowsDeleted: "Rows deleted: %rows%"
+    rowsUpdated: "Rows updated: %rows%"
+    tableModified: Table Modified 
+    tableAdded: Table Added
+    tableReplaced: Table Replaced
+    tableDeleted: TableDeleted
+    transformationsTitle: Transformations
   UserAccount:
     account:
       title: Account
