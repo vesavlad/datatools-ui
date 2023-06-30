@@ -489,6 +489,7 @@ components:
       label: Replace %tablePlaceholder% from %versionPlaceholder%
       name: Replace file from version transformation
   FeedTransformationErrors: 
+    csvNameContainsTxt: Custom CSV name cannot contain .txt
     csvMissingName: Custom CSV must have a name.
     undefinedCSVData: CSV data must be defined.
     undefinedTable: Table must be defined

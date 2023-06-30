@@ -1433,6 +1433,7 @@ components:
     adminTestFailed: You have attempted to view a restricted page without proper credentials
   FeedTransformationErrors:
     csvMissingName: Custom CSV must have a name.
+    csvNameContainsTxt: Custom CSV name cannot contain .txt
     undefinedCSVData: CSV data must be defined.
     undefinedTable: Table must be defined
   PatternStopCard:
