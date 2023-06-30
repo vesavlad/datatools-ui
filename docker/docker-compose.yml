@@ -54,6 +54,8 @@ services:
   mongo:
     image: mongo
     restart: always
+    volumes:
+      - dt-mongo:/data/db
   postgres:
     environment:
       POSTGRES_HOST_AUTH_METHOD: trust
@@ -62,3 +64,8 @@ services:
       POSTGRES_DB: dmtest
     image: postgres
     restart: always
+    volumes:
+      - dt-postgres:/var/lib/postgresql/data
+volumes:
+  dt-postgres:
+  dt-mongo:
