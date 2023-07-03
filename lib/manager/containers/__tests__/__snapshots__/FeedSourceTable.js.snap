@@ -129,6 +129,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "otpVersion": null,
             "peliasCsvFiles": Array [],
             "peliasResetDb": null,
+            "peliasSynonymsBase64": null,
             "peliasUpdate": null,
             "pinnedfeedVersionIds": Array [],
             "projectBounds": Object {
@@ -431,6 +432,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
               "otpVersion": null,
               "peliasCsvFiles": Array [],
               "peliasResetDb": null,
+              "peliasSynonymsBase64": null,
               "peliasUpdate": null,
               "pinnedfeedVersionIds": Array [],
               "projectBounds": Object {
@@ -727,6 +729,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "otpVersion": null,
                               "peliasCsvFiles": Array [],
                               "peliasResetDb": null,
+                              "peliasSynonymsBase64": null,
                               "peliasUpdate": null,
                               "pinnedfeedVersionIds": Array [],
                               "projectBounds": Object {
@@ -956,6 +959,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "otpVersion": null,
                                 "peliasCsvFiles": Array [],
                                 "peliasResetDb": null,
+                                "peliasSynonymsBase64": null,
                                 "peliasUpdate": null,
                                 "pinnedfeedVersionIds": Array [],
                                 "projectBounds": Object {
@@ -3084,6 +3088,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "otpVersion": null,
                               "peliasCsvFiles": Array [],
                               "peliasResetDb": null,
+                              "peliasSynonymsBase64": null,
                               "peliasUpdate": null,
                               "pinnedfeedVersionIds": Array [],
                               "projectBounds": Object {
@@ -3359,6 +3364,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "otpVersion": null,
                                 "peliasCsvFiles": Array [],
                                 "peliasResetDb": null,
+                                "peliasSynonymsBase64": null,
                                 "peliasUpdate": null,
                                 "pinnedfeedVersionIds": Array [],
                                 "projectBounds": Object {
@@ -3687,6 +3693,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -4089,6 +4096,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                     "otpVersion": null,
                                                     "peliasCsvFiles": Array [],
                                                     "peliasResetDb": null,
+                                                    "peliasSynonymsBase64": null,
                                                     "peliasUpdate": null,
                                                     "pinnedfeedVersionIds": Array [],
                                                     "projectBounds": Object {
@@ -4509,6 +4517,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
