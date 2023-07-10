@@ -1313,6 +1313,7 @@ components:
     tableDeleted: Table Deleted
     transformationsTitle: Transformations
   TripSeriesModal:
+    automaticallyUpdateTripIds: Automatically update Trip IDs for trips created in series?
     close: Close
     createTripSeriesBody: Enter the start and end time for the trip series (24 hour time) and headway between trips. Click generate to create the series of trips. 
     createTripSeriesQuestion: Create a series of trips
@@ -1320,6 +1321,10 @@ components:
     endTime: "End Time:"
     generateTrips: Generate Trips
     headway: "Headway:"
+    incrementAmountPlaceholder: Increment amount
+    incrementBy: inc. by
+    incrementStartPlaceholder: Increment start (default 0)
+    prefixPlaceholder: Trip ID prefix (optional)
     startTime: "Start Time:"
   UserAccount:
     account:
