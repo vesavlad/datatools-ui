@@ -340,6 +340,8 @@ components:
     andOtherErrors: ...and %errors% other errors
     deleteEndDate: Delete end date
     deleteRange: Delete range
+  ExceptionValidationErrorsList: 
+    andOtherErrors: ...and %errors% other errors
   FeedActionsDropdown:
     delete: Löschen
     deleteFeedSource: Feed-Quelle löschen?

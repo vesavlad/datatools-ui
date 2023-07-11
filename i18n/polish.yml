@@ -333,6 +333,8 @@ components:
     andOtherErrors: ...and %errors% other errors
     deleteEndDate: Delete end date
     deleteRange: Delete range
+  ExceptionValidationErrorsList: 
+    andOtherErrors: ...and %errors% other errors
   FeedActionsDropdown:
     delete: Delete
     deleteFeedSource: Delete Feed Source?
