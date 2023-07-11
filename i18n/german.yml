@@ -333,6 +333,7 @@ components:
     editSchedules: Abfahrzeiten erstellen
     name: Name
   ExceptionDateRange: 
+    andOtherErrors: ...and %errors% other errors
     deleteEndDate: Delete end date
     deleteRange: Delete range
   FeedActionsDropdown:
@@ -1399,7 +1400,7 @@ components:
     save: Speichern
   Validation:
     agencyRequired: Field must be populated for feeds with more than one agency.
-    dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (&serviceId%) combination cannot appear more than once for all exceptions
+    dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions
     idMustBeUnique: Identifier must be unique
     idRequired: Identifier is required if more than one agency exists
     invalidEmail: Field must contain valid email address.
