@@ -332,6 +332,10 @@ components:
       auf eine Örtlickeit in der Karte
     editSchedules: Abfahrzeiten erstellen
     name: Name
+  ExceptionDate: 
+    addRange: Add range
+    dateRemoved: ⓘ Date has been removed. Date entered is already included in an existing range or single date!
+    selectDate: Select date
   ExceptionDateRange: 
     andOtherErrors: ...and %errors% other errors
     deleteEndDate: Delete end date

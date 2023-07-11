@@ -319,6 +319,10 @@ components:
     createStop: Right-click a location on map to create a new stop
     editSchedules: Edit schedules
     name: Name
+  ExceptionDate: 
+    addRange: Add range
+    dateRemoved: ⓘ Date has been removed. Date entered is already included in an existing range or single date!
+    selectDate: Select date
   ExceptionDateRange:
     andOtherErrors: ...and %errors% other errors
     deleteEndDate: Delete end date
