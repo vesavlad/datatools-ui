@@ -1328,7 +1328,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                 <LinkContainer
                                   action="push"
                                   onlyActiveOnIndex={false}
-                                  to="/settings/profile"
+                                  to="/settings"
                                 >
                                   <Button
                                     action="push"
@@ -1372,7 +1372,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                 <LinkContainer
                                   action="push"
                                   onlyActiveOnIndex={false}
-                                  to="/admin/users"
+                                  to="/admin"
                                 >
                                   <Button
                                     action="push"
