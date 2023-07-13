@@ -7,6 +7,10 @@ components:
     errorWithStatus: Fehler (%status%) beim %method% Aufruf von %url%
     networkError: Netzwerk-Fehler (%status%)!\n\n(%method% Aufruf von %url%)
     noFile: Keine Datei zum Hochladen!
+  AddCustomFile: 
+    addCustomCsvData: Add the custom CSV data.
+    customFileName: Custom file name
+    saveCsvAndFileName: Save CSV and file name
   AdminPage:
     applicationLogs: Anwendungs-Logs
     backToDashboard: Zurück zum Dashboard
@@ -492,6 +496,13 @@ components:
       tablePlaceholder: '[Tabelle auswählen]'
       version: Version
       versionPlaceholder: '[Version auswählen]'
+    AddCustomFileTransformation:
+      label: Add custom file in GTFS.
+      name: Add custom file transformation
+    PreserveCustomFieldsTransformation:
+      filePlaceholder: Choose the file/table with custom field
+      label: Preserve fields in %tablePlaceholder% from %filePlaceholder%
+      name: Preserve custom fields transformation
   FeedVersionNavigator:
     confirmDelete: Sind Sie sicher, dass sie diese Version endgültig löschen möchten?
     confirmLoad: Dies wird alle aktiven GTFS Editor Daten dieser Feed-Quelle mit den
@@ -857,6 +868,9 @@ components:
     edit-alert: GTFS-RT Alerts bearbeiten
     edit-gtfs: GTFS Feeds bearbeiten
     manage-feed: Feed-Konfiguration verwalten
+  PreserveCustomFields: 
+    addCsvWithCustomFields: "Add the CSV data with custom fields to preserve in the final output."
+    saveCsv: Save CSV
   ProjectAccessSettings:
     admin: Admin
     cannotFetchFeeds: Feeds nicht abrufbar
@@ -1116,6 +1130,9 @@ components:
     viewDashboard: Dashboard ansehen
   RegionSearch:
     placeholder: Suche nach Regionen oder Unternehmen
+  ReplaceFileFromString:
+    addCsvData: "Add the CSV data to add to/replace in the incoming GTFS:"
+    saveCsv: Save CSV
   ResultTable:
     affectedIds: Betroffene ID(s)
     description: Beschreibung
@@ -1305,6 +1322,17 @@ components:
     title: Abfahrtszeiten-Editor Tastatur-Shortcuts
   TimezoneSelect:
     placeholder: Zeitzone auswählen...
+  TransformationsViewer:
+    columnsAdded: "Custom columns added: %columns%"
+    noTransformationApplied: No transformations applied.
+    rowsAdded: "Rows added: %rows%"
+    rowsDeleted: "Rows deleted: %rows%"
+    rowsUpdated: "Rows updated: %rows%"
+    tableModified: Table Modified 
+    tableAdded: Table Added
+    tableReplaced: Table Replaced
+    tableDeleted: TableDeleted
+    transformationsTitle: Transformations
   UserAccount:
     account:
       title: Konto
@@ -1430,3 +1458,44 @@ components:
   WrapComponentInAuthStrategy:
     adminTestFailed: Sie haben versucht, eine eingeschränkt sichtbare Seite aufzurufen,
       verfügen jedoch nicht über die erforderlichen Rechte.
+  CustomCSVForm:
+    numLines: "%numLines% lines."
+  FeedTransformationErrors:
+    csvMissingName: Custom CSV must have a name.
+    csvNameContainsTxt: Custom CSV name cannot contain .txt
+    undefinedCSVData: CSV data must be defined.
+    undefinedTable: Table must be defined
+  PatternStopCard:
+    PatternStopContents:
+      defaultDwellTime: Default dwell time
+      defaultTravelTime: Default travel time
+      firstStopTravelTime: Travel time for first stop must be zero
+      stopHeadsignPlaceholder: Outbound
+      stopHeadsignText: Stop headsign
+      stopHeadsignTitle: Headsign that overrides trip headsign between stops.
+      timepoint: Timepoint?
+      travelTimeHelp: Define the default time it takes to travel to this stop from
+        the previous stop.
+    PickupDropOffSelect:
+      available: Available (0)
+      continuousDropOffTitle: Indicates whether a rider can alight from the transit
+        vehicle at any point along the vehicle's travel path.
+      continuousPickupTitle: Indicates whether a rider can board the transit vehicle
+        anywhere along the vehicle's travel path.
+      continuousServiceDefault: (Inherit from route)
+      dropOffTitle: Define the dropff method/availability at this stop.
+      mustCoordinate: Must coordinate with driver to arrange (3)
+      mustPhoneAgency: Must phone agency to arrange (2)
+      notAvailable: Not available (1)
+      pickupDropOffDefault: (Default - Available)
+      pickupTitle: Define the pickup method/availability at this stop.
+  TripSeriesModal:
+    close: Close
+    createTripSeriesBody: Enter the start and end time for the trip series (24 hour
+      time) and headway between trips. Click generate to create the series of trips.
+    createTripSeriesQuestion: Create a series of trips
+    disabledTooltip: There is an issue with the input data
+    endTime: "End Time:"
+    generateTrips: Generate Trips
+    headway: "Headway:"
+    startTime: "Start Time:"
