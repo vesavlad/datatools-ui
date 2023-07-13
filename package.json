@@ -21,7 +21,7 @@
     "cover-end-to-end": "cross-env COLLECT_COVERAGE=true npm run test-end-to-end",
     "deploy": "mastarm deploy --minify --env production",
     "flow": "mastarm flow",
-    "import-mobility-data": "node scripts/import-mobility-data-rules.mjs",
+    "import-mobility-data": "echo TODO: download jar from jitpack, then run the jar with -n -o ./the/correct/path",
     "lint": "mastarm lint __tests__ lib scripts --quiet",
     "lint-messages": "node scripts/lint-messages.js",
     "postinstall": "patch-package && husky install",
