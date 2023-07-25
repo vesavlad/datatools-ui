@@ -1316,6 +1316,9 @@ components:
     myAccount: My account
     logout: Log out
   UserHomePage:
+    authDisabledInfo: >-
+      You are running %appTitle% without user authentication enabled.
+      Features such as user management, account management and feed activity watching are unavailable.
     createFirst: Create my first project
     help:
       content: 'A project is used to group GTFS feeds. For example, the feeds in a project may be in the same region or they may collectively define a planning scenario.'
