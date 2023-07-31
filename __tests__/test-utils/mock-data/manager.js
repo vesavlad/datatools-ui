@@ -116,6 +116,7 @@ export const mockProject = {
     updaters: null,
     walkSpeed: null
   },
+  sharedStopsConfig: null,
   useCustomOsmBounds: false,
   user: null
 }
