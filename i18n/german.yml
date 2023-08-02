@@ -1406,22 +1406,22 @@ components:
     save: Speichern
   Validation:
     agencyRequired: Field must be populated for feeds with more than one agency.
-    dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions
-    idMustBeUnique: Identifier must be unique
-    idRequired: Identifier is required if more than one agency exists
+    dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions.
+    idMustBeUnique: Identifier must be unique.
+    idRequired: Identifier is required if more than one agency exists.
     invalidEmail: Field must contain valid email address.
     invalidLatitude: Field must be valid latitude.
     invalidLongitude: Field must be valid longitude.
-    invalidRouteType: Field must be a valid route type
+    invalidRouteType: Field must be a valid route type.
     invalidUrl: Field must contain valid URL.
     latLonRequired: Latitude and Longitude are required for your current location type.
-    mustBePositiveInteger: Field must be a positive integer
-    mustBePositiveNumber: Field must be a positive number
-    mustBeValidNumber: Field must be a valid number
-    nameAlreadyUsed: "%name% is already used in another exception"
-    serviceRequired: Calendar must have service for at least one day
+    mustBePositiveInteger: Field must be a positive integer.
+    mustBePositiveNumber: Field must be a positive number.
+    mustBeValidNumber: Field must be a valid number.
+    nameAlreadyUsed: "%name% is already used in another exception."
+    serviceRequired: Calendar must have service for at least one day.
     stopNameRequired: Stop name is required for stop, station, and entrance location types.
-    requiredFieldEmpty: Required field must not be empty
+    requiredFieldEmpty: Required field must not be empty.
   VersionButtonToolbar:
     confirmDelete: Sind Sie sicher, dass sie diese Version endgültig löschen möchten?
     confirmLoad: Dies wird alle aktiven GTFS Editor Daten dieser Feed-Quelle mit den
