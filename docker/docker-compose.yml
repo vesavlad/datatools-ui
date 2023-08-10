@@ -45,7 +45,7 @@ services:
   datatools-ui:
     build:
       context: ../
-      dockerfile: ./docker/ui.Dockerfile
+      dockerfile: ./docker/ui/Dockerfile
       args: *common-variables
     restart: always
     environment: *common-variables
