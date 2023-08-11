@@ -71,6 +71,7 @@ export function makeMockDeployment (
     peliasCsvFiles: [],
     peliasResetDb: null,
     peliasUpdate: null,
+    peliasSynonymsBase64: null,
     pinnedfeedVersionIds: [],
     projectBounds: {east: 0, west: 0, north: 0, south: 0},
     projectId: project.id,

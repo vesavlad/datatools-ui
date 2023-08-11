@@ -336,6 +336,16 @@ components:
       auf eine Örtlickeit in der Karte
     editSchedules: Abfahrzeiten erstellen
     name: Name
+  ExceptionDate: 
+    addRange: Add range
+    dateRemoved: ⓘ Date has been removed. Date entered is already included in an existing range or single date!
+    selectDate: Select date
+  ExceptionDateRange: 
+    andOtherErrors: ...and %errors% other errors
+    deleteEndDate: Delete end date
+    deleteRange: Delete range
+  ExceptionValidationErrorsList: 
+    andOtherErrors: ...and %errors% other errors
   FeedActionsDropdown:
     delete: Löschen
     deleteFeedSource: Feed-Quelle löschen?
@@ -1425,6 +1435,24 @@ components:
       custom: Benutzerdefiniert
       noAccess: Kein Zugriff
     save: Speichern
+  Validation:
+    agencyRequired: Field must be populated for feeds with more than one agency.
+    dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions.
+    idMustBeUnique: Identifier must be unique.
+    idRequired: Identifier is required if more than one agency exists.
+    invalidEmail: Field must contain valid email address.
+    invalidLatitude: Field must be valid latitude.
+    invalidLongitude: Field must be valid longitude.
+    invalidRouteType: Field must be a valid route type.
+    invalidUrl: Field must contain valid URL.
+    latLonRequired: Latitude and Longitude are required for your current location type.
+    mustBePositiveInteger: Field must be a positive integer.
+    mustBePositiveNumber: Field must be a positive number.
+    mustBeValidNumber: Field must be a valid number.
+    nameAlreadyUsed: "%name% is already used in another exception."
+    serviceRequired: Calendar must have service for at least one day.
+    stopNameRequired: Stop name is required for stop, station, and entrance location types.
+    requiredFieldEmpty: Required field must not be empty.
   VersionButtonToolbar:
     confirmDelete: Sind Sie sicher, dass sie diese Version endgültig löschen möchten?
     confirmLoad: Dies wird alle aktiven GTFS Editor Daten dieser Feed-Quelle mit den
@@ -1493,6 +1521,7 @@ components:
       pickupDropOffDefault: (Default - Available)
       pickupTitle: Define the pickup method/availability at this stop.
   TripSeriesModal:
+    automaticallyUpdateTripIds: Automatically update Trip IDs for trips created in series?
     close: Close
     createTripSeriesBody: Enter the start and end time for the trip series (24 hour
       time) and headway between trips. Click generate to create the series of trips.
@@ -1501,4 +1530,8 @@ components:
     endTime: "End Time:"
     generateTrips: Generate Trips
     headway: "Headway:"
+    incrementAmountPlaceholder: Increment amount
+    incrementBy: inc. by
+    incrementStartPlaceholder: Increment start (default 0)
+    prefixPlaceholder: Trip ID prefix (optional)
     startTime: "Start Time:"
