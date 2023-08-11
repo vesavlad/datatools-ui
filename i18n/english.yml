@@ -972,6 +972,9 @@ components:
         defaultLocation: 'Default location (lat, lng)'
         defaultTimeZone: Default time zone
         title: Location
+      sharedStops:
+        title: Shared Stops
+        placeholder: Shared stops config CSV
       name: Project name
       title: General
       updates:
