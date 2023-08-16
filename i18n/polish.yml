@@ -1038,6 +1038,9 @@ components:
       localPlacesIndex:
         title: Local Places Index
         webhookUrl: Webhook URL
+      sharedStops:
+        title: Shared Stops
+        placeholder: Shared stops config CSV
       location:
         boundingBox: Bounding box (W,S,E,N)
         boundingBoxPlaceHolder: min_lon, min_lat, max_lon, max_lat
