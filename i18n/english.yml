@@ -96,6 +96,7 @@ components:
     title: Create a new snapshot
   CustomCSVForm:
     numLines: "%numLines% lines."
+    csvInvalid: CSV invalid!
   DatatoolsNavbar:
     account: My Account
     alerts: Alerts
