@@ -27,6 +27,7 @@ env.yml
 env.yml-original
 .env
 !configurations/test/env.yml
+!docker/server/env.yml
 scripts/*client.json
 *.pem
 
