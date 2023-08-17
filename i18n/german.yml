@@ -1104,7 +1104,7 @@ components:
     mergeFeeds: Alle zusammeführen
     noProjectFound: Keine Projekte gefunden für
     note: 'Hinweis:'
-    publicViewed: Öffentliche Feed-Seite ist sichtbar
+    publicViewed: "Öffentliche Feed-Seite ist sichtbar "
     returnToProjects: Zurück zur Projektliste
     settings: Einstellungen
   ProjectsList:
