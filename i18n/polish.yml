@@ -1089,7 +1089,7 @@ components:
     mergeFeeds: Merge all
     noProjectFound: No project found for
     note: 'Note:'
-    publicViewed: Public feeds page can be viewed
+    publicViewed: "Public feeds page can be viewed "
     returnToProjects: Return to list of projects
     settings: Settings
   ProjectsList:
