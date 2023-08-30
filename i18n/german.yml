@@ -1297,6 +1297,9 @@ components:
       permanent lösche möchten?
     deleteTrips: Lösche Trips
     deleteTripsQuestion: Trips löschen?
+  TimetableHeader:
+    useSeconds: Use seconds in offset
+    useSecondsToolTip: Toggling the use of seconds allows more precision in the trip offset and trip series creation tools. 
   TimetableHelpModal:
     close: Schließen
     pressQuestionmark: Drücken Sie <kbd>?</kbd> um Tastatur-Shortcuts anzusehen

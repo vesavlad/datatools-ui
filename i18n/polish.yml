@@ -1274,6 +1274,9 @@ components:
       trips?
     deleteTrips: Delete trips
     deleteTripsQuestion: Delete trips?
+  TimetableHeader:
+    useSeconds: Use seconds in offset
+    useSecondsToolTip: Toggling the use of seconds allows more precision in the trip offset and trip series creation tools. 
   TimetableHelpModal:
     close: Close
     pressQuestionmark: Press <kbd>?</kbd> to view shortcuts
