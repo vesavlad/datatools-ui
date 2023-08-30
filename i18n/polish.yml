@@ -1298,6 +1298,7 @@ components:
     undoChanges: Undo changes
     useSeconds: Use seconds in offset
     useSecondsToolTip: Toggling the use of seconds allows more precision in the trip offset and trip series creation tools. 
+    validationIssues: Validation issues
   TimetableHelpModal:
     close: Close
     pressQuestionmark: Press <kbd>?</kbd> to view shortcuts
