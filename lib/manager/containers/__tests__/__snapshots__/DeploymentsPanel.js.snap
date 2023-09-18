@@ -108,6 +108,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                   "feedVersionId": "mock-feed-version-id",
                   "loadFailureReason": null,
                   "loadStatus": "SUCCESS",
+                  "mobilityDataResult": Object {},
                   "routeCount": 10,
                   "startDate": "20180801",
                   "stopCount": 237,
@@ -129,6 +130,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
             "otpVersion": null,
             "peliasCsvFiles": Array [],
             "peliasResetDb": null,
+            "peliasSynonymsBase64": null,
             "peliasUpdate": null,
             "pinnedfeedVersionIds": Array [],
             "projectBounds": Object {
@@ -164,6 +166,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
             "otpVersion": null,
             "peliasCsvFiles": Array [],
             "peliasResetDb": null,
+            "peliasSynonymsBase64": null,
             "peliasUpdate": null,
             "pinnedfeedVersionIds": Array [],
             "projectBounds": Object {
@@ -235,8 +238,10 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
         "peliasWebhookUrl": null,
         "pinnedDeploymentId": "mock-deployment-id-0",
         "routerConfig": Object {
-          "carDropoffTime": null,
-          "numItineraries": null,
+          "driveDistanceReluctance": null,
+          "itineraryFilters": Object {
+            "nonTransitGeneralizedCostLimit": null,
+          },
           "requestLogFile": null,
           "stairsReluctance": null,
           "updaters": null,
@@ -344,6 +349,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                     "feedVersionId": "mock-feed-version-id",
                     "loadFailureReason": null,
                     "loadStatus": "SUCCESS",
+                    "mobilityDataResult": Object {},
                     "routeCount": 10,
                     "startDate": "20180801",
                     "stopCount": 237,
@@ -365,6 +371,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
               "otpVersion": null,
               "peliasCsvFiles": Array [],
               "peliasResetDb": null,
+              "peliasSynonymsBase64": null,
               "peliasUpdate": null,
               "pinnedfeedVersionIds": Array [],
               "projectBounds": Object {
@@ -400,6 +407,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
               "otpVersion": null,
               "peliasCsvFiles": Array [],
               "peliasResetDb": null,
+              "peliasSynonymsBase64": null,
               "peliasUpdate": null,
               "pinnedfeedVersionIds": Array [],
               "projectBounds": Object {
@@ -471,8 +479,10 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
           "peliasWebhookUrl": null,
           "pinnedDeploymentId": "mock-deployment-id-0",
           "routerConfig": Object {
-            "carDropoffTime": null,
-            "numItineraries": null,
+            "driveDistanceReluctance": null,
+            "itineraryFilters": Object {
+              "nonTransitGeneralizedCostLimit": null,
+            },
             "requestLogFile": null,
             "stairsReluctance": null,
             "updaters": null,
@@ -637,6 +647,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                             "feedVersionId": "mock-feed-version-id",
                             "loadFailureReason": null,
                             "loadStatus": "SUCCESS",
+                            "mobilityDataResult": Object {},
                             "routeCount": 10,
                             "startDate": "20180801",
                             "stopCount": 237,
@@ -658,6 +669,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                       "otpVersion": null,
                       "peliasCsvFiles": Array [],
                       "peliasResetDb": null,
+                      "peliasSynonymsBase64": null,
                       "peliasUpdate": null,
                       "pinnedfeedVersionIds": Array [],
                       "projectBounds": Object {
@@ -693,6 +705,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                       "otpVersion": null,
                       "peliasCsvFiles": Array [],
                       "peliasResetDb": null,
+                      "peliasSynonymsBase64": null,
                       "peliasUpdate": null,
                       "pinnedfeedVersionIds": Array [],
                       "projectBounds": Object {
@@ -801,6 +814,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                               "feedVersionId": "mock-feed-version-id",
                               "loadFailureReason": null,
                               "loadStatus": "SUCCESS",
+                              "mobilityDataResult": Object {},
                               "routeCount": 10,
                               "startDate": "20180801",
                               "stopCount": 237,
@@ -822,6 +836,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                         "otpVersion": null,
                         "peliasCsvFiles": Array [],
                         "peliasResetDb": null,
+                        "peliasSynonymsBase64": null,
                         "peliasUpdate": null,
                         "pinnedfeedVersionIds": Array [],
                         "projectBounds": Object {
@@ -857,6 +872,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                         "otpVersion": null,
                         "peliasCsvFiles": Array [],
                         "peliasResetDb": null,
+                        "peliasSynonymsBase64": null,
                         "peliasUpdate": null,
                         "pinnedfeedVersionIds": Array [],
                         "projectBounds": Object {
@@ -928,8 +944,10 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                     "peliasWebhookUrl": null,
                     "pinnedDeploymentId": "mock-deployment-id-0",
                     "routerConfig": Object {
-                      "carDropoffTime": null,
-                      "numItineraries": null,
+                      "driveDistanceReluctance": null,
+                      "itineraryFilters": Object {
+                        "nonTransitGeneralizedCostLimit": null,
+                      },
                       "requestLogFile": null,
                       "stairsReluctance": null,
                       "updaters": null,
@@ -1153,6 +1171,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                         "feedVersionId": "mock-feed-version-id",
                                         "loadFailureReason": null,
                                         "loadStatus": "SUCCESS",
+                                        "mobilityDataResult": Object {},
                                         "routeCount": 10,
                                         "startDate": "20180801",
                                         "stopCount": 237,
@@ -1174,6 +1193,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                   "otpVersion": null,
                                   "peliasCsvFiles": Array [],
                                   "peliasResetDb": null,
+                                  "peliasSynonymsBase64": null,
                                   "peliasUpdate": null,
                                   "pinnedfeedVersionIds": Array [],
                                   "projectBounds": Object {
@@ -1282,6 +1302,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                             "feedVersionId": "mock-feed-version-id",
                                             "loadFailureReason": null,
                                             "loadStatus": "SUCCESS",
+                                            "mobilityDataResult": Object {},
                                             "routeCount": 10,
                                             "startDate": "20180801",
                                             "stopCount": 237,
@@ -1303,6 +1324,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -1338,6 +1360,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -1409,8 +1432,10 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                   "peliasWebhookUrl": null,
                                   "pinnedDeploymentId": "mock-deployment-id-0",
                                   "routerConfig": Object {
-                                    "carDropoffTime": null,
-                                    "numItineraries": null,
+                                    "driveDistanceReluctance": null,
+                                    "itineraryFilters": Object {
+                                      "nonTransitGeneralizedCostLimit": null,
+                                    },
                                     "requestLogFile": null,
                                     "stairsReluctance": null,
                                     "updaters": null,
@@ -1582,6 +1607,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                   "otpVersion": null,
                                   "peliasCsvFiles": Array [],
                                   "peliasResetDb": null,
+                                  "peliasSynonymsBase64": null,
                                   "peliasUpdate": null,
                                   "pinnedfeedVersionIds": Array [],
                                   "projectBounds": Object {
@@ -1690,6 +1716,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                             "feedVersionId": "mock-feed-version-id",
                                             "loadFailureReason": null,
                                             "loadStatus": "SUCCESS",
+                                            "mobilityDataResult": Object {},
                                             "routeCount": 10,
                                             "startDate": "20180801",
                                             "stopCount": 237,
@@ -1711,6 +1738,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -1746,6 +1774,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -1817,8 +1846,10 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                   "peliasWebhookUrl": null,
                                   "pinnedDeploymentId": "mock-deployment-id-0",
                                   "routerConfig": Object {
-                                    "carDropoffTime": null,
-                                    "numItineraries": null,
+                                    "driveDistanceReluctance": null,
+                                    "itineraryFilters": Object {
+                                      "nonTransitGeneralizedCostLimit": null,
+                                    },
                                     "requestLogFile": null,
                                     "stairsReluctance": null,
                                     "updaters": null,

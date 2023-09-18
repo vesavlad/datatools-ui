@@ -89,8 +89,10 @@ Object {
       "peliasWebhookUrl": null,
       "pinnedDeploymentId": null,
       "routerConfig": Object {
-        "carDropoffTime": null,
-        "numItineraries": null,
+        "driveDistanceReluctance": null,
+        "itineraryFilters": Object {
+          "nonTransitGeneralizedCostLimit": null,
+        },
         "requestLogFile": null,
         "stairsReluctance": null,
         "updaters": null,

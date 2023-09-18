@@ -162,28 +162,28 @@ To allow for the creation, deletion and editing of users you must generate a tok
 - **users_app_metadata**:
     - read, update, create and delete
 
-#### Auth0 Rule Configuration: making app_metadata and user_metadata visible via token (only required for "new" Auth0 accounts/tenants)
-When working with OIDC-conformant clients/APIs, which is mandatory for new Auth0 tenants, it's essential to configure a custom Auth0 rule for adding app_metadata and user_metadata to the user's token. Please note that this isn't the default behavior for older "legacy" Auth0 accounts. To set up this rule, follow these steps:
+#### Auth0 Post-Login Action Configuration: making `app_metadata` and `user_metadata` visible via token
 
-Navigate to Rules > Create Rule.
-Create an empty rule and insert the following code snippet:
+If using OIDC-conformant clients/APIs (which appears to be mandatory for new Auth0 tenants), you must set up a custom Auth0 action to add `app_metadata` and `user_metadata` to the user's id token (Note: this is not the default for older, "legacy" Auth0 accounts).
 
-```
-function (user, context, callback) {
-  if (context.clientID === 'YOUR_CLIENT_ID') {
-    var namespace = 'http://datatools/';
-    if (context.idToken && user.user_metadata) {
-      context.idToken[namespace + 'user_metadata'] = user.user_metadata;
-    }
-    if (context.idToken && user.app_metadata) {
-      context.idToken[namespace + 'app_metadata'] = user.app_metadata;
-    }
+To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click Create Action. Fill in the action name and pick a recommended runtime, and click Create. Modify the function `onExecutePostLogin` as follows, then click Save Draft:
+
+```js
+exports.onExecutePostLogin = async (event, api) => {
+  if (event.authorization) {
+    const namespace = 'http://datatools';
+    api.idToken.setCustomClaim(`${namespace}/user_metadata`, event.user.user_metadata);
+    api.idToken.setCustomClaim(`${namespace}/app_metadata`, event.user.app_metadata);
   }
-  callback(null, user, context);
-}
+};
 ```
 If you want the rule to apply only to specific clients, you can retain the conditional block that checks the `context.clientID` value. Otherwise, you can remove this conditional block if it's not needed.
 This rule will ensure that app_metadata and user_metadata are included in the user's token, as required for OIDC-conformant clients/APIs in new Auth0 tenants.
+
+You can test the action with mock token data using the Test tab. Once ready, click Deploy, then click Back to Flow.
+In the diagram, drag the action between the Start and Complete steps, then click Apply.
+You can test that the action is correctly executed by logging-in to datatools with an admin user
+and checking that the Admin functionality is available.
 
 ## Building and Running the Application
 
