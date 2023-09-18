@@ -2,7 +2,7 @@
 
 The schedule editor allows for the creation of trips/frequencies for any combination of route, pattern, and/or calendar. To manage or edit schedules or exceptions, navigate to the `Calendar` tab located in the left-hand menu:
 
-calendar-tab IMAGE HERE
+![calendar-tab](https://datatools-builds.s3.amazonaws.com/docs/schedules/calendar-tab.png)
 
 ## Terminology
 
@@ -42,7 +42,7 @@ To start editing a calendar, click on `+ Create first calendar` if this is the f
 ## Editing/Creating Exceptions
 To start editing an exception, select any existing exception (if applicable) on the left pane. You will be able to edit properties such as exception name, customize the exception type, add calendars to add, remove or swap and the time range the exception is applied to. To make a new exception, click on `New exception` on the top left of the pane.
 
-new-exception IMAGE HERE
+![new-exception](https://datatools-builds.s3.amazonaws.com/docs/schedules/new-exception.png)
 
 You will be able to add or edit properties such as:
 
@@ -76,13 +76,13 @@ To begin editing a timetable, click the `Edit schedules` button in the top left 
 
 (Alternatively, if you are in the `Routes` tab (see [Routes](/user/editor/routes/)), select an existing route or route click the `New route` button --> select the `Trip patterns` tab --> select a pattern --> select `Use timetables` in the 'Type:` dropdown --> select the `Edit schedules` button)
 
-edit-schedules IMAGE HERE
+![edit-schedules](https://datatools-builds.s3.amazonaws.com/docs/schedules/edit-schedules.png)
 
 **Note**: At least one route, pattern and calendar must have been created to edit schedules.
 
 The selectors located at the top of the page allow users to navigate between calendars for a specific pattern or switch between patterns for a route or multiple routes within the feed. Variations of route, pattern and the schedule can be selected to generate the desired timetable.
 
-timetable-selector IMAGE HERE
+![timetable-selector](https://datatools-builds.s3.amazonaws.com/docs/schedules/timetable-selector.png)
 
 Each selection has a set of statistics associated with it shown as a number in a grey or green box, that, when hovered over, provides the following information:
 
@@ -103,11 +103,11 @@ Once a route, pattern and calendar is selected, a timetable with the following t
 - **Trip Headsign** - headsign for the trip
 - **Arrival/Departure Times** - arrival and departure times (departures shown in grey text) for each stop along the pattern
 
-edit-timetables IMAGE HERE
+![edit-timetables](https://datatools-builds.s3.amazonaws.com/docs/schedules/edit-timetables.png)
 
 To select trips to offset, duplicate or delete, click the row number on the lefthand side of the row. To toggle selection of all trips, click the box in the upper lefthand corner.
 
-select-trips IMAGE HERE
+![select-trips](https://datatools-builds.s3.amazonaws.com/docs/schedules/select-trips.png)
 
 After trips are selected, navigate to the schedule toolbar at the top right of the screen.
 
@@ -118,7 +118,7 @@ After trips are selected, navigate to the schedule toolbar at the top right of t
 - **Save** - save all changes
 - **Offset trip(s)** - specify an offset (`HH:MM`) to offset the last trip in the spreadsheet or whichever rows are selected
 
-schedule-toolbar IMAGE HERE
+![schedule-toolbar](https://datatools-builds.s3.amazonaws.com/docs/schedules/schedule-toolbar.png)
 
 ** Note: When entering times manually into the schedule editor they will automatically be converted to a standardized format `13:00:00`** 
 
@@ -159,4 +159,4 @@ Frequency details include:
 
 Editing frequencies follow the [same editing procedures](#tutorial-video-editingcreating-timetables) as editing timetables.
 
-edit-frequencies IMAGE HERE
+![edit-frequencies](https://datatools-builds.s3.amazonaws.com/docs/schedules/edit-frequencies.png)

@@ -11,7 +11,7 @@ The following steps outline the process for performing an OTP deployment, coveri
 
 The deployment architecture diagram below depicts how OTP servers are managed by Data Tools and can be used with elastic load balancers. The user interface is deployed on Amazon S3 servers and optionally mirrored by CloudFront, a high-bandwidth content delivery mechanism. Data Tools prepares and sends a data bundle and configuration properties to initialize OTP servers. The data bundle includes a set of GTFS feeds and OpenStreetMap data. DataTools makes the request to the osm-lib server and then creates a bundle of the resulting OSM and GTFS data. Data Tools does not manage UI deployments at this time.
 
-otp-deployment-diagram IMAGE HERE
+![otp](https://datatools-builds.s3.amazonaws.com/docs/otp/otp-deployment-diagram.png)
 
 ## Resources for Performing an OTP Deployment
 

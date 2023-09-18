@@ -28,15 +28,16 @@ For non-administrative users, permissions may be assigned on an individual basis
 
 To create or manage users, you must be logged in as either an application-level or organization-level administrator. To do so, navigate to the `Home` page and click on the `Admin` button located in the top right-hand corner. This action will grant you access to the user management console, where you will find a comprehensive list of all users within the system:
 
-user-admin IMAGE HERE
+![user-admin](https://datatools-builds.s3.amazonaws.com/docs/intro/user-admin.png)
 
 Click `Edit` next to a user name to see an expanded user profile where specific permissions can be set:
 
-user-profile IMAGE HERE
+![user-profile](https://datatools-builds.s3.amazonaws.com/docs/intro/user-profile.png)
+
 
 To create a new user, click the `Create User` button:
 
-create-user IMAGE HERE
+![create-user](https://datatools-builds.s3.amazonaws.com/docs/intro/create-user.png)
 
 You will be asked to provide an email address (which serves as the user's username), an initial password for the user, and any initial permission settings. Once created, the user will receive a confirmation email at the specified email address.
 
@@ -45,12 +46,11 @@ Have you forgotten your password or do you need to change it for any reason?
 
 ### If Logged Out
 While logged out, click the `Log In` button and then "Don't remember your password". After submitting the email address associated with your user account, an email will be sent to you containing a link to reset your password.
-
-password-reset-logged-out IMAGE HERE
+![pass-logged-out](https://datatools-builds.s3.amazonaws.com/docs/intro/password-reset-logged-out.png)
 
 ### If Logged In
 Click the user icon at the bottom of the lefthand sidebar and click `Change Password` to submit your email address.
 
-password-reset-logged-in IMAGE HERE
+![pass-logged-in](https://datatools-builds.s3.amazonaws.com/docs/intro/password-reset-logged-in.png)
 
 **Note:** if you don't receive a password reset email within a few minutes, please check your spam/junk folder.

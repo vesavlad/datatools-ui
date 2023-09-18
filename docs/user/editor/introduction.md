@@ -10,7 +10,7 @@ When editing routes, stop, calendars, and any other entities in the Editor, you 
 
 The primary tables in GTFS (feed info, routes, stops, calendars, and fares) all correspond to items in the lefthand navigation bar, which allow you to create, edit, or delete records for each of these tables.
 
-nav-bar IMAGE HERE
+![nav-bar](https://datatools-builds.s3.amazonaws.com/docs/intro/nav-bar.png)
 
 Some tables are nested underneath these primary tables. Here's how to find them and what they're called in the Editor:
 
@@ -26,7 +26,7 @@ Some tables are nested underneath these primary tables. Here's how to find them 
 
 In the bottom, righthand corner of the Editor, you'll find the quick access toolbar that has a few convenient features:
 
-quick-access-toolbar IMAGE HERE
+![quick-access-toolbar](https://datatools-builds.s3.amazonaws.com/docs/intro/quick-access-toolbar.png)
 
 From left to right, these functions are:
 

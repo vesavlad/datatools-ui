@@ -15,7 +15,7 @@ To begin editing fares, click the fare ticket button on the lefthand navigation 
 
 Choose a fare from the list to begin editing. To create a new fare, click `+ New fare`, or, if this is the first fare being created for this feed, select `+ Create first fare` (highlighted in yellow).
 
-fare-tab IMAGE HERE
+![fare-tab](https://datatools-builds.s3.amazonaws.com/docs/fares/fare-tab.png)
 
 ### Edit fare attributes
 In the `Attributes` tab, required and optional information about the fare can be inputted, like `fare_id`, `price` and `currency_type`.
@@ -32,13 +32,13 @@ To edit fare rules, you must first create and save a fare with attributes. After
 2. **From/to zone** - applies to any itinerary that travels from the origin zone to the destination zone
 3. **Contains zone** - applies to any itinerary that passes through *each* `contains` zone
 
-adding fare rules IMAGE HERE
+![edit-fare-rules](https://datatools-builds.s3.amazonaws.com/docs/fares/edit-fare-rules.png)
 
 ### Creating fare zones
 
 To create a fare zone, you must first select a stop that you would like to include in the zone by clicking the location pin icon on the sidebar and selecting one of the stop names. Next, click in the `zone_id` dropdown and begin typing the new `zone_id`. Click `Create new zone: [zone_id]` and then save the stop. Repeat for as many zones as needed.
 
-adding fare zone IMAGE HERE
+![add-fare-zone](https://datatools-builds.s3.amazonaws.com/docs/fares/add-fare-zone.png)
 
 ### Tutorial Video: Editing/Creating Fares
 <iframe 

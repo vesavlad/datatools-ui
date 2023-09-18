@@ -4,7 +4,7 @@
 
 Projects are created from the main Project listing page. Click the `Create Project` button to create a new Project; a row for the new Project will appear in the table. Type a name and click the check button (or hit Enter/Return) to finish creating the Project.
 
-create-project IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/create-project.png)
 
 ## Managing Projects
 
@@ -12,16 +12,16 @@ Clicking on a project in the main project listing will take you to the detailed 
 
 The **Settings** tab can be expanded to reveal optional properties that can be specified for the project. These include the location of the project's geographic coverage area (specified either as a single coordinate or a rectangular region) and the default time zone. These values, when provided, are used to populate the corresponding feed-level properties when creating new feeds within this project.
 
-project-settings IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-settings.png)
 ## Creating a Feed Source
 
 To the left of the Project Settings panel is the **Feed Sources** panel. Feed Sources are the core of a project, and are documented in more detail below. 
 
-project-feed-sources IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-feed-sources.png)
 
 Feed Sources are created from a Project's main profile page. Click the `+New` button from the `Actions` dropdown to create a new feed; Specify a name and optional feed source URL and click "Save". You may also adjust whether to automatically fetch the feed from the source URL and to make the feed deployable. 
 
-create-feed-source IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/create-feed-source.png)
 
 ## Managing Feed Sources
 
@@ -29,7 +29,7 @@ After a Feed Source has been created, it will appear in the Project's table of F
 
 To access the Feed Source Profile for this feed, click on its name. 
 
-fee-profile IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/feed-profile.png)
 
 At the top of the page is a set of tabs, which include:
 
@@ -77,7 +77,7 @@ Follow the steps below to configure Feed Transformations for an existing Feed So
 2. From here, click on `Add transformation` to begin creating a new set of rules for incoming GTFS feeds. Your first ruleset will automatically apply to GTFS that is fetched automatically and manually uploaded, but this can be changed for each ruleset to apply to any of the retrieval methods listed in [Creating Feed Versions](#creating-feed-versions).
 3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified, and each will be applied to the incoming GTFS file in the order in which they are defined.
 
-configure-feed-transformations IMAGE HERE
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/configure-feed-transformations.png)
 
 ### Viewing the Feed Transformation Summary
 
@@ -95,6 +95,6 @@ The Feed Version navigator enables you to browse through all available versions 
 - Load a version into the Editor.
 - Delete a Feed Version from the Data Manager. (Note: Deleting a Feed Version cannot be undone.)
 
-![screenshot](../img/feed-version-navigator.png)
+![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/feed-profile.png)
 
 To the left of the navigator is a list of views available for the currently active version. These views include basic feed statistics, the detailed feed validation report, and any user comments specific to this feed.
