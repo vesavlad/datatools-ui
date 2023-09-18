@@ -12,7 +12,7 @@ Assumptions for IBI-hosted deployments:
 2. You have selected a region (e.g. [US East (N. Virginia)](https://console.aws.amazon.com/console/home?region=us-east-1)).
 3. A Virtual Private Cloud (VPC) with two subnets exists in that AWS environment.
 
-## UI Server: S3 Bucket and CloudFront
+## Create an OTP UI server (AWS S3 and CloudFront)
 
 The OTP user interface is delivered using a plain HTTP file server that does not perform any computations. The file server consists of one S3 bucket. For fast high-bandwidth file delivery, we mirror the S3 bucket using CloudFront.
 
@@ -53,9 +53,10 @@ Upload the files [referenced here](https://github.com/ibi-group/trimet-mod-otp#t
 
 If updating the UI files, remember to invalidate the CloudFront instance (this forces an update of the files on CloudFront).
 
-## Backend server: Load balancer
+## Create an OTP backend load balancer (AWS EC2)
 
-We recommend using an elastic load balancer (ELB) for deploying/upgrading an OTP server instance without interrupting the current one. In doing so, a new server is set up in the background, and when ready (preprocessing done), the new server is added to the load balancer, and the old server removed and destroyed.
+
+We recommend using an elastic load balancer (ELB) to deploy or upgrade an OTP server instance without interrupting the current one. This involves setting up a new server in the background. Once it's ready (after preprocessing is complete), the new server is added to the load balancer, and the old server is removed and destroyed.
 
 The load balancer also allows instantiating multiple OTP servers on large deployments. (You can start, add, or remove more than one OTP server to the load balancer.)
 
@@ -80,7 +81,7 @@ The load balancer also allows instantiating multiple OTP servers on large deploy
 3. In the value field, paste the `DNS Name` of the load balancer instance above.
 4. Click `Create`.
 
-## Delegate Third Party Account Access
+## Delegate access to Data Tools for resources in a third party AWS account via an IAM role
 For Data Tools to access AWS resources (e.g., S3 and EC2) in third party AWS accounts, additional setup is required. The steps provided in [this AWS tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html) detail the process to delegate access across AWS accounts. A more tailored, shorthand version of this process is provided below, but if more background information is needed about, please follow the tutorial link above.
 
 ### Steps to Give Data Tools Access to Third Party Account
