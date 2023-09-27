@@ -162,23 +162,26 @@ To allow for the creation, deletion and editing of users you must generate a tok
 - **users_app_metadata**:
     - read, update, create and delete`
 
-#### Auth0 Rule Configuration: making app_metadata and user_metadata visible via token (only required for "new" Auth0 accounts/tenants)
-If using OIDC-conformant clients/APIs (which appears to be mandatory for new Auth0 tenants), you must set up a custom Auth0 rule to add app_metadata and user_metadata to the user's token (Note: this is not the default for older, "legacy" Auth0 accounts). Go to Rules > Create Rule > empty rule and add the following code snippet. If you'd like the rule to only apply to certain clients, you can keep the conditional block that checks for `context.clientID` value. Otherwise, this conditional block is unnecessary.
+#### Auth0 Post-Login Action Configuration: making `app_metadata` and `user_metadata` visible via token
 
-```
-function (user, context, callback) {
-  if (context.clientID === 'YOUR_CLIENT_ID') {
-    var namespace = 'http://datatools/';
-    if (context.idToken && user.user_metadata) {
-      context.idToken[namespace + 'user_metadata'] = user.user_metadata;
-    }
-    if (context.idToken && user.app_metadata) {
-      context.idToken[namespace + 'app_metadata'] = user.app_metadata;
-    }
+If using OIDC-conformant clients/APIs (which appears to be mandatory for new Auth0 tenants), you must set up a custom Auth0 action to add `app_metadata` and `user_metadata` to the user's id token (Note: this is not the default for older, "legacy" Auth0 accounts).
+
+To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click Create Action. Fill in the action name and pick a recommended runtime, and click Create. Modify the function `onExecutePostLogin` as follows, then click Save Draft:
+
+```js
+exports.onExecutePostLogin = async (event, api) => {
+  if (event.authorization) {
+    const namespace = 'http://datatools';
+    api.idToken.setCustomClaim(`${namespace}/user_metadata`, event.user.user_metadata);
+    api.idToken.setCustomClaim(`${namespace}/app_metadata`, event.user.app_metadata);
   }
-  callback(null, user, context);
-}
+};
 ```
+
+You can test the action with mock token data using the Test tab. Once ready, click Deploy, then click Back to Flow.
+In the diagram, drag the action between the Start and Complete steps, then click Apply.
+You can test that the action is correctly executed by logging-in to datatools with an admin user
+and checking that the Admin functionality is available.
 
 ## Building and Running the Application
 
