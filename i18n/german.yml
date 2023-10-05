@@ -1494,6 +1494,7 @@ components:
       verfügen jedoch nicht über die erforderlichen Rechte.
   CustomCSVForm:
     numLines: "%numLines% lines."
+    csvInvalid: CSV ungültig!
   FeedTransformationErrors:
     csvMissingName: Custom CSV must have a name.
     csvNameContainsTxt: Custom CSV name cannot contain .txt
