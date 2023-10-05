@@ -79,6 +79,8 @@ components:
         placeholder: Nazwa migawki (wymagana)
       publishNewVersion:
         label: Publikuj migawkę jako nowa wersja pliku
+      publishProprietaryFiles: 
+        label: Publish new feed version with proprietary (extra) datatools files.
     missingNameAlert: Migawce należy nadać prawidłową nazwę!
     ok: OK
     title: Utwórz nową migawkę

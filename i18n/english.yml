@@ -87,6 +87,8 @@ components:
         placeholder: Additional information (optional)
       publishNewVersion:
         label: Publish snapshot as new feed version
+      publishProprietaryFiles: 
+        label: Publish new feed version with proprietary (extra) datatools files.
       confirmPublishWithUnapproved:
         label: Confirm publish with unapproved routes 
     unapprovedRoutesHeader: "The following routes are not approved"

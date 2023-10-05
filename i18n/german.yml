@@ -80,6 +80,8 @@ components:
         placeholder: Name des Schnappschusses (erforderlich)
       publishNewVersion:
         label: Veröffentliche Schnappschuss als neue Feed-Version
+      publishProprietaryFiles: 
+        label: Publish new feed version with proprietary (extra) datatools files.
     missingNameAlert: Gültiger Schnappschuss-Name erforderlich!
     ok: OK
     title: Neuen Schnappschuss erstellen
