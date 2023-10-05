@@ -51,7 +51,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                   "id": "mock-feed-with-version-id",
                   "isPublic": false,
                   "labelIds": Array [],
-                  "lastFetched": 1543389038810,
                   "lastUpdated": 1543389038810,
                   "latestValidation": Object {
                     "agencies": null,
@@ -154,7 +153,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -228,7 +226,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -277,7 +274,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -355,7 +351,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                     "id": "mock-feed-with-version-id",
                     "isPublic": false,
                     "labelIds": Array [],
-                    "lastFetched": 1543389038810,
                     "lastUpdated": 1543389038810,
                     "latestValidation": Object {
                       "agencies": null,
@@ -458,7 +453,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
               "id": "mock-feed-with-version-id",
               "isPublic": false,
               "labelIds": Array [],
-              "lastFetched": 1543389038810,
               "lastUpdated": 1543389038810,
               "latestValidation": Object {
                 "agencies": null,
@@ -653,7 +647,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "id": "mock-feed-with-version-id",
                                     "isPublic": false,
                                     "labelIds": Array [],
-                                    "lastFetched": 1543389038810,
                                     "lastUpdated": 1543389038810,
                                     "latestValidation": Object {
                                       "agencies": null,
@@ -756,7 +749,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "id": "mock-feed-with-version-id",
                               "isPublic": false,
                               "labelIds": Array [],
-                              "lastFetched": 1543389038810,
                               "lastUpdated": 1543389038810,
                               "latestValidation": Object {
                                 "agencies": null,
@@ -884,7 +876,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -987,7 +978,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "id": "mock-feed-with-version-id",
                                 "isPublic": false,
                                 "labelIds": Array [],
-                                "lastFetched": 1543389038810,
                                 "lastUpdated": 1543389038810,
                                 "latestValidation": Object {
                                   "agencies": null,
@@ -2939,7 +2929,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                           "id": "mock-feed-with-version-id",
                           "isPublic": false,
                           "labelIds": Array [],
-                          "lastFetched": 1543389038810,
                           "lastUpdated": 1543389038810,
                           "latestValidation": Object {
                             "agencies": null,
@@ -3014,7 +3003,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "id": "mock-feed-with-version-id",
                                     "isPublic": false,
                                     "labelIds": Array [],
-                                    "lastFetched": 1543389038810,
                                     "lastUpdated": 1543389038810,
                                     "latestValidation": Object {
                                       "agencies": null,
@@ -3117,7 +3105,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "id": "mock-feed-with-version-id",
                               "isPublic": false,
                               "labelIds": Array [],
-                              "lastFetched": 1543389038810,
                               "lastUpdated": 1543389038810,
                               "latestValidation": Object {
                                 "agencies": null,
@@ -3217,7 +3204,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "id": "mock-feed-with-version-id",
                             "isPublic": false,
                             "labelIds": Array [],
-                            "lastFetched": 1543389038810,
                             "lastUpdated": 1543389038810,
                             "latestValidation": Object {
                               "agencies": null,
@@ -3291,7 +3277,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -3394,7 +3379,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "id": "mock-feed-with-version-id",
                                 "isPublic": false,
                                 "labelIds": Array [],
-                                "lastFetched": 1543389038810,
                                 "lastUpdated": 1543389038810,
                                 "latestValidation": Object {
                                   "agencies": null,
@@ -3547,7 +3531,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                   "id": "mock-feed-with-version-id",
                                   "isPublic": false,
                                   "labelIds": Array [],
-                                  "lastFetched": 1543389038810,
                                   "lastUpdated": 1543389038810,
                                   "latestValidation": Object {
                                     "agencies": null,
@@ -3621,7 +3604,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                             "id": "mock-feed-with-version-id",
                                             "isPublic": false,
                                             "labelIds": Array [],
-                                            "lastFetched": 1543389038810,
                                             "lastUpdated": 1543389038810,
                                             "latestValidation": Object {
                                               "agencies": null,
@@ -3724,7 +3706,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -3951,7 +3932,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                 "id": "mock-feed-with-version-id",
                                                 "isPublic": false,
                                                 "labelIds": Array [],
-                                                "lastFetched": 1543389038810,
                                                 "lastUpdated": 1543389038810,
                                                 "latestValidation": Object {
                                                   "agencies": null,
@@ -4025,7 +4005,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                           "id": "mock-feed-with-version-id",
                                                           "isPublic": false,
                                                           "labelIds": Array [],
-                                                          "lastFetched": 1543389038810,
                                                           "lastUpdated": 1543389038810,
                                                           "latestValidation": Object {
                                                             "agencies": null,
@@ -4128,7 +4107,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                     "id": "mock-feed-with-version-id",
                                                     "isPublic": false,
                                                     "labelIds": Array [],
-                                                    "lastFetched": 1543389038810,
                                                     "lastUpdated": 1543389038810,
                                                     "latestValidation": Object {
                                                       "agencies": null,
@@ -4373,7 +4351,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                   "id": "mock-feed-with-version-id",
                                   "isPublic": false,
                                   "labelIds": Array [],
-                                  "lastFetched": 1543389038810,
                                   "lastUpdated": 1543389038810,
                                   "latestValidation": Object {
                                     "agencies": null,
@@ -4447,7 +4424,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                             "id": "mock-feed-with-version-id",
                                             "isPublic": false,
                                             "labelIds": Array [],
-                                            "lastFetched": 1543389038810,
                                             "lastUpdated": 1543389038810,
                                             "latestValidation": Object {
                                               "agencies": null,
@@ -4550,7 +4526,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
