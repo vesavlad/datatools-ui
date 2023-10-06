@@ -96,6 +96,7 @@ components:
   CustomCSVForm:
     numLines: "%numLines% lines."
     csvInvalid: CSV ungültig! 
+    uploading: Uploading...
   DatatoolsNavbar:
     account: Moje konto
     alerts: Alerty

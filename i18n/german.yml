@@ -1495,6 +1495,7 @@ components:
   CustomCSVForm:
     numLines: "%numLines% lines."
     csvInvalid: CSV ungültig!
+    uploading: Uploading...
   FeedTransformationErrors:
     csvMissingName: Custom CSV must have a name.
     csvNameContainsTxt: Custom CSV name cannot contain .txt

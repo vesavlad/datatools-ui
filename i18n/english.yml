@@ -97,6 +97,7 @@ components:
   CustomCSVForm:
     numLines: "%numLines% lines."
     csvInvalid: CSV invalid!
+    uploading: Uploading...
   DatatoolsNavbar:
     account: My Account
     alerts: Alerts
