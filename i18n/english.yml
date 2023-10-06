@@ -88,6 +88,7 @@ components:
       publishNewVersion:
         label: Publish snapshot as new feed version
       publishProprietaryFiles: 
+        helpText: Proprietary files allow you to maintain Datatools certain proprietary features across feed version, e.g. Pattern names.
         label: Publish new feed version with proprietary (extra) datatools files.
       confirmPublishWithUnapproved:
         label: Confirm publish with unapproved routes 
