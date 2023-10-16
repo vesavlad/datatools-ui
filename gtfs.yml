@@ -150,9 +150,9 @@
     helpContent: "The stop_id field contains an ID that uniquely identifies a stop or station. Multiple routes may use the same stop. The stop_id is dataset unique."
   - name: "stop_code"
     required: false
-    inputType: GTFS_ID
+    inputType: TEXT
     columnWidth: 6
-    helpContent: "The stop_code field contains short text or a number that uniquely identifies the stop for passengers. Stop codes are often used in phone-based transit information systems or printed on stop signage to make it easier for riders to get a stop schedule or real-time arrival information for a particular stop."
+    helpContent: "The stop_code field contains short text or a number that identifies the stop for passengers. Stop codes are often used in phone-based transit information systems or printed on stop signage to make it easier for riders to get a stop schedule or real-time arrival information for a particular stop."
   - name: "stop_name"
     required: false
     inputType: TEXT
