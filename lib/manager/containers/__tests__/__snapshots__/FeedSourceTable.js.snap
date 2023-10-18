@@ -208,6 +208,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
           "updaters": null,
           "walkSpeed": null,
         },
+        "sharedStopsConfig": null,
         "useCustomOsmBounds": false,
         "user": null,
       }
@@ -507,6 +508,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "updaters": null,
             "walkSpeed": null,
           },
+          "sharedStopsConfig": null,
           "useCustomOsmBounds": false,
           "user": null,
         }
@@ -802,6 +804,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "updaters": null,
                             "walkSpeed": null,
                           },
+                          "sharedStopsConfig": null,
                           "useCustomOsmBounds": false,
                           "user": null,
                         }
@@ -1030,6 +1033,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "updaters": null,
                               "walkSpeed": null,
                             },
+                            "sharedStopsConfig": null,
                             "useCustomOsmBounds": false,
                             "user": null,
                           }
@@ -3156,6 +3160,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "updaters": null,
                             "walkSpeed": null,
                           },
+                          "sharedStopsConfig": null,
                           "useCustomOsmBounds": false,
                           "user": null,
                         }
@@ -3429,6 +3434,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "updaters": null,
                               "walkSpeed": null,
                             },
+                            "sharedStopsConfig": null,
                             "useCustomOsmBounds": false,
                             "user": null,
                           }
@@ -3755,6 +3761,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
@@ -4155,6 +4162,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                   "updaters": null,
                                                   "walkSpeed": null,
                                                 },
+                                                "sharedStopsConfig": null,
                                                 "useCustomOsmBounds": false,
                                                 "user": null,
                                               }
@@ -4573,6 +4581,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
