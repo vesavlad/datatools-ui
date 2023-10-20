@@ -245,6 +245,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
           "updaters": null,
           "walkSpeed": null,
         },
+        "sharedStopsConfig": null,
         "useCustomOsmBounds": false,
         "user": null,
       }
@@ -484,6 +485,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
             "updaters": null,
             "walkSpeed": null,
           },
+          "sharedStopsConfig": null,
           "useCustomOsmBounds": false,
           "user": null,
         }
@@ -946,6 +948,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                       "updaters": null,
                       "walkSpeed": null,
                     },
+                    "sharedStopsConfig": null,
                     "useCustomOsmBounds": false,
                     "user": null,
                   }
@@ -1431,6 +1434,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
@@ -1843,6 +1847,7 @@ exports[`lib > manager > DeploymentsPanel should render with the list of deploym
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
