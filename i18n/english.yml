@@ -1156,10 +1156,10 @@ components:
     errorOccurred: An error occurred while trying to fetch the data
     jumpToRoute: Jump to a Route
     route: "Route:"
-  RouteRow:
-    patterns: "%num% Patterns"
-    stops: "%num% Stops"
-    trips: "%num% Trips"
+    RouteRow:
+      patterns: "%num% Patterns"
+      stops: "%num% Stops"
+      trips: "%num% Trips"
   SelectFileModal:
     ok: OK
     cancel: Cancel
