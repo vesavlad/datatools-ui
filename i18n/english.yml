@@ -96,6 +96,8 @@ components:
     title: Create a new snapshot
   CustomCSVForm:
     numLines: "%numLines% lines."
+    csvInvalid: CSV invalid!
+    uploading: Uploading...
   DatatoolsNavbar:
     account: My Account
     alerts: Alerts
@@ -972,6 +974,9 @@ components:
         defaultLocation: 'Default location (lat, lng)'
         defaultTimeZone: Default time zone
         title: Location
+      sharedStops:
+        title: Shared Stops
+        placeholder: Shared stops config CSV
       name: Project name
       title: General
       updates:

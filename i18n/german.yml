@@ -1052,6 +1052,9 @@ components:
       localPlacesIndex:
         title: Adress-Index
         webhookUrl: Webhook URL
+      sharedStops:
+        title: Shared Stops
+        placeholder: Shared stops config CSV
       location:
         boundingBox: Gebiets-Grenzen (W,S,E,N)
         boundingBoxPlaceHolder: min_lon, min_lat, max_lon, max_lat
@@ -1524,6 +1527,8 @@ components:
       verfügen jedoch nicht über die erforderlichen Rechte.
   CustomCSVForm:
     numLines: "%numLines% lines."
+    csvInvalid: CSV ungültig!
+    uploading: Uploading...
   FeedTransformationErrors:
     csvMissingName: Custom CSV must have a name.
     csvNameContainsTxt: Custom CSV name cannot contain .txt

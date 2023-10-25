@@ -95,6 +95,8 @@ components:
     title: Create User
   CustomCSVForm:
     numLines: "%numLines% lines."
+    csvInvalid: CSV ungültig! 
+    uploading: Uploading...
   DatatoolsNavbar:
     account: Moje konto
     alerts: Alerty
@@ -1038,6 +1040,9 @@ components:
       localPlacesIndex:
         title: Local Places Index
         webhookUrl: Webhook URL
+      sharedStops:
+        title: Shared Stops
+        placeholder: Shared stops config CSV
       location:
         boundingBox: Bounding box (W,S,E,N)
         boundingBoxPlaceHolder: min_lon, min_lat, max_lon, max_lat
