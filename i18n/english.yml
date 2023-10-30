@@ -1370,6 +1370,7 @@ components:
     incrementStartPlaceholder: Increment start (default 0)
     prefixPlaceholder: Trip ID prefix (optional)
     startTime: "Start Time:"
+    trips: trip(s)
   UserAccount:
     account:
       title: Account
