@@ -341,8 +341,8 @@ components:
   ExportPatternsModal: 
     exportPatterns: Publish version with proprietary patterns?
     exportPatternsBody: A lot of text
-    yes: Yes
     no: No
+    yes: Yes
   FeedFetchFrequency:
     DAYS: days
     fetchFeedEvery: Fetch feed every

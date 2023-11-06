@@ -298,6 +298,7 @@ components:
     load: Zur Bearbeitung laden
     loadLatest: Aktuellsten zur Bearbeitung herunterladen
     name: Name
+    noOtherSnapshots: No other snapshots
     noSnapshotsExist: Für diese Feed-Quelle existieren noch keine Schnappschüsse.
       Schnappschüsse können im Editor erstellt werden. Wählen Sie "Feed bearbeiten"
       um den Bearbeitungsmodus zu starten.
@@ -349,6 +350,11 @@ components:
     deleteRange: Delete range
   ExceptionValidationErrorsList: 
     andOtherErrors: ...and %errors% other errors
+  ExportPatternsModal:
+    exportPatterns: Publish version with proprietary patterns?
+    exportPatternsBody: A lot of text
+    no: No
+    yes: Yes
   FeedActionsDropdown:
     delete: Löschen
     deleteFeedSource: Feed-Quelle löschen?
