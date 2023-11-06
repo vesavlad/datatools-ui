@@ -340,7 +340,6 @@ components:
     andOtherErrors: ...and %errors% other errors
   ExportPatternsModal: 
     exportPatterns: Publish version with proprietary patterns?
-    exportPatternsBody: A lot of text
     no: No
     yes: Yes
   FeedFetchFrequency:
