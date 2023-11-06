@@ -88,7 +88,7 @@ components:
       publishNewVersion:
         label: Publish snapshot as new feed version
       publishProprietaryFiles: 
-        helpText: Proprietary files allow you to maintain Datatools certain proprietary features across feed version, e.g. Pattern names.
+        helpText: Proprietary files allow you to maintain certain proprietary Datatools features across feed version, e.g. Pattern names.
         label: Publish new feed version with proprietary (extra) datatools files.
       confirmPublishWithUnapproved:
         label: Confirm publish with unapproved routes 
@@ -291,6 +291,7 @@ components:
     load: Load for Editing
     loadLatest: Load latest for editing
     name: Name
+    noOtherSnapshots: No other snapshots
     noSnapshotsExist: No snapshots currently exist for this feed. Snapshots can be created within the Editor. Click "Edit Feed" to enter editing mode.
     noVersions: (No Versions)
     noVersionsExist: No versions exist for this feed source.
@@ -337,6 +338,11 @@ components:
     deleteRange: Delete range
   ExceptionValidationErrorsList: 
     andOtherErrors: ...and %errors% other errors
+  ExportPatternsModal: 
+    exportPatterns: Publish version with proprietary patterns?
+    exportPatternsBody: A lot of text
+    yes: Yes
+    no: No
   FeedFetchFrequency:
     DAYS: days
     fetchFeedEvery: Fetch feed every

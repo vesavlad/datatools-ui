@@ -81,7 +81,7 @@ components:
       publishNewVersion:
         label: Veröffentliche Schnappschuss als neue Feed-Version
       publishProprietaryFiles: 
-        helpText: Proprietary files allow you to maintain Datatools certain proprietary features across feed version, e.g. Pattern names.
+        helpText: Proprietary files allow you to maintain certain proprietary Datatools features across feed version, e.g. Pattern names.
         label: Publish new feed version with proprietary (extra) datatools files.
     missingNameAlert: Gültiger Schnappschuss-Name erforderlich!
     ok: OK
