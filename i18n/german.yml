@@ -1159,6 +1159,14 @@ components:
       und eine detailierte Beschreibung der Schritte, die Sie zuvor ausgeführt haben
       an <a href='mailto:%supportEmail%'>%supportEmail%</a>.
     view: Ansehen
+  RouteLayout:
+    errorOccurred: An error occurred while trying to fetch the data
+    jumpToRoute: Jump to a Route
+    route: "Route:"
+    RouteRow:
+      patterns: "%num% Patterns"
+      stops: "%num% Stops"
+      trips: "%num% Trips"
   SelectFileModal:
     cancel: Abbrechen
     ok: OK
