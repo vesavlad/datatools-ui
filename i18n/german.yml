@@ -1559,13 +1559,17 @@ components:
       pickupDropOffDefault: (Default - Available)
       pickupTitle: Define the pickup method/availability at this stop.
   TripSeriesModal:
+    alternateEvery: "Alternate every: "
+    automaticallyUpdateBlockIds: Automatically assign Block IDs for trips created in series?
     automaticallyUpdateTripIds: Automatically update Trip IDs for trips created in series?
+    blockIdPrefixPlaceholder: Block ID prefix
+    blockIncrementPlaceholder: inc. by
     close: Close
-    createTripSeriesBody: Enter the start and end time for the trip series (24 hour
-      time) and headway between trips. Click generate to create the series of trips.
+    createTripSeriesBody: Enter the start and end time for the trip series (24 hour time) and headway between trips. Click generate to create the series of trips. 
     createTripSeriesQuestion: Create a series of trips
     disabledTooltip: There is an issue with the input data
     endTime: "End Time:"
+    formatExplanation: "* Block IDs will be formatted as {prefix}-{alternating number}, e.g. 'WEEKDAY-1' then 'WEEKDAY-2', etc.'"
     generateTrips: Generate Trips
     headway: "Headway:"
     incrementAmountPlaceholder: Increment amount
@@ -1573,3 +1577,5 @@ components:
     incrementStartPlaceholder: Increment start (default 0)
     prefixPlaceholder: Trip ID prefix (optional)
     startTime: "Start Time:"
+    tripsStartingWith: "trip(s), starting with:"
+
