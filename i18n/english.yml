@@ -1469,6 +1469,8 @@ components:
     save: Save
   Validation:
     agencyRequired: Field must be populated for feeds with more than one agency.
+    conflictingServiceId: Service ID already exists in a standard calendar!
+    customServiceId: Custom service ID
     dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions.
     idMustBeUnique: Identifier must be unique.
     idRequired: Identifier is required if more than one agency exists.
