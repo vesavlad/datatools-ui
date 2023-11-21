@@ -80,6 +80,9 @@ components:
         placeholder: Name des Schnappschusses (erforderlich)
       publishNewVersion:
         label: Veröffentliche Schnappschuss als neue Feed-Version
+      publishProprietaryFiles: 
+        helpText: Proprietary files allow you to maintain certain Datatools features, such as pattern names, when re-importing a feed.
+        label: Publish new feed version with proprietary (extra) Datatools files.
     missingNameAlert: Gültiger Schnappschuss-Name erforderlich!
     ok: OK
     title: Neuen Schnappschuss erstellen
@@ -295,6 +298,7 @@ components:
     load: Zur Bearbeitung laden
     loadLatest: Aktuellsten zur Bearbeitung herunterladen
     name: Name
+    noOtherSnapshots: No other snapshots
     noSnapshotsExist: Für diese Feed-Quelle existieren noch keine Schnappschüsse.
       Schnappschüsse können im Editor erstellt werden. Wählen Sie "Feed bearbeiten"
       um den Bearbeitungsmodus zu starten.
@@ -346,6 +350,10 @@ components:
     deleteRange: Delete range
   ExceptionValidationErrorsList: 
     andOtherErrors: ...and %errors% other errors
+  ExportPatternsModal:
+    exportPatterns: Publish version with proprietary patterns?
+    no: No
+    yes: Yes
   FeedActionsDropdown:
     delete: Löschen
     deleteFeedSource: Feed-Quelle löschen?

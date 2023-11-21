@@ -79,6 +79,9 @@ components:
         placeholder: Nazwa migawki (wymagana)
       publishNewVersion:
         label: Publikuj migawkę jako nowa wersja pliku
+      publishProprietaryFiles: 
+        helpText: Proprietary files allow you to maintain certain Datatools features, such as pattern names, when re-importing a feed.
+        label: Publish new feed version with proprietary (extra) Datatools files.
     missingNameAlert: Migawce należy nadać prawidłową nazwę!
     ok: OK
     title: Utwórz nową migawkę
@@ -295,6 +298,7 @@ components:
     load: Wczytaj do edycji
     loadLatest: Załaduj najnowszy do edycji
     name: Nazwa
+    noOtherSnapshots: No other snapshots
     noSnapshotsExist: Obecnie nie istnieją żadne zrzuty tego kanału. Migawki można
       tworzyć w Edytorze. Kliknij „Edytuj kanał”, aby przejść do trybu edycji.
     noVersions: (Brak wersji)
@@ -343,6 +347,10 @@ components:
     deleteRange: Delete range
   ExceptionValidationErrorsList: 
     andOtherErrors: ...and %errors% other errors
+  ExportPatternsModal: 
+    exportPatterns: Publish version with proprietary patterns?
+    no: No
+    yes: Yes
   FeedActionsDropdown:
     delete: Delete
     deleteFeedSource: Delete Feed Source?

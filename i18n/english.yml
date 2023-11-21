@@ -87,6 +87,9 @@ components:
         placeholder: Additional information (optional)
       publishNewVersion:
         label: Publish snapshot as new feed version
+      publishProprietaryFiles: 
+        helpText: Proprietary files allow you to maintain certain Datatools features, such as pattern names, when re-importing a feed.
+        label: Publish new feed version with proprietary (extra) Datatools files.
       confirmPublishWithUnapproved:
         label: Confirm publish with unapproved routes 
     unapprovedRoutesHeader: "The following routes are not approved"
@@ -290,6 +293,7 @@ components:
     load: Load for Editing
     loadLatest: Load latest for editing
     name: Name
+    noOtherSnapshots: No other snapshots
     noSnapshotsExist: No snapshots currently exist for this feed. Snapshots can be created within the Editor. Click "Edit Feed" to enter editing mode.
     noVersions: (No Versions)
     noVersionsExist: No versions exist for this feed source.
@@ -336,6 +340,10 @@ components:
     deleteRange: Delete range
   ExceptionValidationErrorsList: 
     andOtherErrors: ...and %errors% other errors
+  ExportPatternsModal: 
+    exportPatterns: Publish version with proprietary patterns?
+    no: No
+    yes: Yes
   FeedFetchFrequency:
     DAYS: days
     fetchFeedEvery: Fetch feed every
