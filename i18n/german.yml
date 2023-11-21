@@ -830,6 +830,26 @@ components:
       fieldUndefined: Zu normalisierendes Feld muss angegeben werden.
       substitutionInvalid: Substitutions-Muster ungültig.
       substitutionUndefined: Substitution-Muster müssen angegeben werden.
+  NormalizeStopTimesModal:
+    close: Close
+    interpolateStopTimes: Interpolate stop times between timepoints?
+    normalizeStopTimes: Normalize stop times
+    normalizeStopTimesQuestion: Normalize stop times?
+    selectBeginningPatternStop: "Select beginning pattern stop:"
+    tooFewTimepoints: "You must have more than 1 timepoint to interpolate times"
+    usageExplanationOne: This feature is useful when the travel times for one or more
+      pattern stops change. Take for example a pattern
+      that has been re-routed along to travel a longer distance, has had a
+      stop added (or removed), or has had a layover introduced mid-trip.
+      Once you have adjusted the travel times to account for these changes,
+      you can normalize the stop times to bring them into alignment with the
+      updated travel times reflected in the pattern stops.
+    usageExplanationTwo: Interpolating stop times calculates the implicit speed between timepoints
+      based on the shape distance and the default travel times. This speed is
+      then applied to the shape distance traveled for each intermediate non-timepoint
+      stop to provide interpolated travel times. The default travel time for non-timepoint
+      stops will not be modified.
+    usageNotes: " Usage notes"
   NormalizeStopTimesTip:
     info: 'Tipp: Wenn Sie Reisezeiten ändern, erwägen Sie die Benutzung des "Stop
       times normalisieren"-Buttons oberhalb, um automatisch alle Stop Times auf die
