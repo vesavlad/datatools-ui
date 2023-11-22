@@ -336,6 +336,9 @@ components:
       auf eine Örtlickeit in der Karte
     editSchedules: Abfahrzeiten erstellen
     name: Name
+  ExceptionCalendarSelector: 
+    selectCalendar: Select calendar...
+    unnamedDefault: "[unnamed]"
   ExceptionDate: 
     addRange: Add range
     dateRemoved: ⓘ Date has been removed. Date entered is already included in an existing range or single date!
@@ -1167,6 +1170,24 @@ components:
       patterns: "%num% Patterns"
       stops: "%num% Stops"
       trips: "%num% Trips"
+  ScheduleExceptionForm:
+    addDate: " Add date"
+    customServiceID: Custom service ID
+    dates: Dates
+    exceptionBasedService: Exception Based Service
+    exceptionName: Exception name*
+    noDatesSpecified: No dates specified
+    noService: No Service
+    onTheseDates: On these dates*
+    ranges: Ranges
+    runFollowing: "Run the following schedule:"
+    selectCalendar: Select calendar to run*
+    selectCalendarToAdd: "Select calendars to add (optional):"
+    selectCalendarToRemove: "Select calendars to remove (optional):"
+    selectExemplar: -- Select exception type --
+    swapAddOrRemove: Swap, add, or remove
+    thanksgivingDay: Thanksgiving Day
+    unnamedDefault: "[unnamed]"
   SelectFileModal:
     cancel: Abbrechen
     ok: OK
