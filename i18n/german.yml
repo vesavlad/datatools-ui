@@ -58,6 +58,9 @@ components:
     deployments: Deployments
     projects: Projekte
     root: Erkunden
+  CalendarSelect:
+    exceptionBasedCalendar: (Exception based calendar)
+    selectCalendar: " Select calendar..."
   ConfirmModal:
     cancel: Abbrechen
     ok: OK
