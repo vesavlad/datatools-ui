@@ -4,7 +4,7 @@
 
 User accounts in the Transit Data Tools suite are managed via Auth0, a third-party authentication service. (For details on setting up Auth0 for use with this application, please refer to the Deployment documentation.)
 
-Auth0 provides access through internally defined user accounts and third-party identity providers (e.g., social networking sites); however, this documentation only addresses internal accounts. Internal accounts employ username-password authentication, with a user's email address serving as the unique username.
+Auth0 allows for access via internally defined user accounts as well as third-party identity providers (e.g. social networking sites); however, this documentation only addresses internal accounts. Internal accounts employ username-password authentication, with a user's email address serving as the unique username.
 
 ## User Permissions
 
@@ -18,7 +18,7 @@ Three types of administrator-level users exist:
 - **Project-level administrator**: holds full access to a single project, including all project-level permissions. Is not able to create new projects or administer users.
 
 ### Non-admin users
-For non-administrative users, permissions may be assigned on an individual basis by choosing `Custom`. A non-administrative user's permissions can also be set to only apply to particular feeds within a project. By default, all users with project access have read-only permissions for all project feeds.
+For non-administrative users, permissions may be assigned on an individual basis by choosing `Custom`. A non-administrative user's permissions can also be set to only apply to particular feeds within a project. By default, all users with project access have read-only access for all project feeds.
 
 #### User permissions examples
 1. A user may need edit privileges to only one feed source. In this case, the `Edit GTFS feeds` and the specific feed (e.g., Agency X) would be checked.

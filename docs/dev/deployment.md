@@ -166,7 +166,7 @@ To allow for the creation, deletion and editing of users you must generate a tok
 
 If using OIDC-conformant clients/APIs (which appears to be mandatory for new Auth0 tenants), you must set up a custom Auth0 action to add `app_metadata` and `user_metadata` to the user's id token (Note: this is not the default for older, "legacy" Auth0 accounts).
 
-To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click Create Action. Fill in the action name and pick a recommended runtime, and click Create. Modify the function `onExecutePostLogin` as follows, then click Save Draft:
+To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click on `Create Action`. Fill in the action name and pick a recommended runtime, and click on `Create`. Modify the function `onExecutePostLogin` as follows, then click Save Draft:
 
 ```js
 exports.onExecutePostLogin = async (event, api) => {

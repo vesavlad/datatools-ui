@@ -1,7 +1,5 @@
 # Trip Patterns
 
-## Terminology
-
 ### Patterns
 Patterns refer to the recurring schedules and frequencies of transit trips. They can be thought of as a template for a particular route, indicating the days of the week and times of day that trips will be available, as well as the frequency of service during those periods.
 

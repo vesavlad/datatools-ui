@@ -13,11 +13,11 @@ nav:
   - 'Managing Projects & Feeds': 'user/managing-projects-feeds.md'
   - 'Managing Users': 'user/managing-users.md'
 - 'GTFS Editor':
-  - Introduction: 'user/editor/introduction.md'
+  - Getting Started: 'user/editor/getting-started.md'
   - Stops: 'user/editor/stops.md'
   - Routes: 'user/editor/routes.md'
   - Patterns: 'user/editor/patterns.md'
-  - Schedules/Calendars: 'user/editor/schedules.md'
+  - Schedules: 'user/editor/schedules.md'
   - Fares: 'user/editor/fares.md'
 - Deploying to OTP:
   - Overview: user/otp-deployment.md

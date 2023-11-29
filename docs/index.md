@@ -4,4 +4,4 @@ The IBI Transit Data Tools suite provides web-based tools for creating, managing
 
 ![feed-profile](https://datatools-builds.s3.amazonaws.com/docs/intro/feed-profile.png)
 
-To get started, click a topic from the table of contents on the left pane.
+To get started, click on a topic from the table of contents on the left pane.

@@ -1,6 +1,5 @@
 # Fares
 
-## Terminology
 ### Fare attributes
 
 Fare attributes describe the basic information about a fare including the price, currency type and transfer information. See the [GTFS specification fare attribute reference](https://gtfs.org/schedule/reference/#fare_attributestxt) for more information.

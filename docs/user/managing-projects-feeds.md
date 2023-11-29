@@ -2,15 +2,13 @@
 
 ## Creating Projects
 
-Projects are created from the main Project listing page. Click the `Create Project` button to create a new Project; a row for the new Project will appear in the table. Type a name and click the check button (or hit Enter/Return) to finish creating the Project.
+Projects are created from the main Project listing page. Click the `New Project` button to create a new Project; a row for the new Project will appear in the table. Type a name and click the check button (or hit Enter/Return) to finish creating the Project.
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/create-project.png)
 
 ## Managing Projects
 
-Clicking on a project in the main project listing will take you to the detailed project profile page.
-
-The **Settings** tab can be expanded to reveal optional properties that can be specified for the project. These include the location of the project's geographic coverage area (specified either as a single coordinate or a rectangular region) and the default time zone. These values, when provided, are used to populate the corresponding feed-level properties when creating new feeds within this project.
+Clicking on a project in the main project listing will take you to the detailed project profile page:
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-settings.png)
 ## Creating a Feed Source
@@ -19,7 +17,7 @@ To the left of the Project Settings panel is the **Feed Sources** panel. Feed So
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-feed-sources.png)
 
-Feed Sources are created from a Project's main profile page. Click the `+New` button from the `Actions` dropdown to create a new feed; Specify a name and optional feed source URL and click "Save". You may also adjust whether to automatically fetch the feed from the source URL and to make the feed deployable. 
+Feed Sources are created from a Project's main profile page. Click the `+New` button from the `Actions` dropdown to create a new feed; Specify a name and optional feed source URL and click on `Save`. You may also adjust whether to automatically fetch the feed from the source URL and to make the feed deployable. 
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/create-feed-source.png)
 
@@ -55,9 +53,9 @@ Feed Versions are created from the main Feed Source profile page. There are thre
 
 3. **Import From the GTFS Editor**: Select `From snapshot` from the `+ Create new version` dropdown. The list of snapshots should now be visible showing any available snapshots of the feed in the Editor. Select the desired snapshot by clicking the "Publish" button to publish the snapshot as a new version.
 
-4. **Service Period Merge** (certain Data Tools configurations only): If a Feed Source has two or more Feed Versions, a new Feed Version can be created by merging two versions representing a transit agency's service over different time periods. While viewing a particular Feed Version, click `Merge with version` (underneath the map view) to select which past version you would like to merge with.
+4. **Service Period Merge** (certain Data Tools configurations only): If a Feed Source has two or more Feed Versions, a new Feed Version can be created by merging two versions representing a transit agency's service over different time periods. While viewing a particular Feed Version, click on `Merge with version` (underneath the map view) to select which past version you would like to merge with.
 
-5. **Regional Merge**: For Projects that contain multiple Feed Sources across a region, it can be useful to merge multiple transit agencies together into a combined GTFS feed for the entire region. While viewing a Project's list of Feed Sources, click `Actions > Merge all` to produce a combined GTFS file for all Feed Sources.
+5. **Regional Merge**: For Projects that contain multiple Feed Sources across a region, it can be useful to merge multiple transit agencies together into a combined GTFS feed for the entire region. While viewing a Project's list of Feed Sources, click on `Actions > Merge all` to produce a combined GTFS file for all Feed Sources.
 
 **Note**: when uploading or fetching a feed, and the file being uploaded or fetched is not different from the latest version, no new Feed Version will be created.
 
@@ -75,7 +73,12 @@ Follow the steps below to configure Feed Transformations for an existing Feed So
 
 1. Select a Feed Source and click on `Settings > Feed Transformations`.
 2. From here, click on `Add transformation` to begin creating a new set of rules for incoming GTFS feeds. Your first ruleset will automatically apply to GTFS that is fetched automatically and manually uploaded, but this can be changed for each ruleset to apply to any of the retrieval methods listed in [Creating Feed Versions](#creating-feed-versions).
-3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified, and each will be applied to the incoming GTFS file in the order in which they are defined.
+3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified and each will be applied to the incoming GTFS file in the order in which they are defined.
+
+The types of feed transformations include:
+- **Normalize field transformation:** Standardize or the values within the GTFS data.
+- **Preserve custom fields transformation:** This transformation prevents custom, user-added fields in GTFS data from getting lost.
+- **Add custom file transformation:** Include custom files in the GTFS data.
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/configure-feed-transformations.png)
 
@@ -89,7 +92,7 @@ A more in depth summary is available under the Transformation Results tab on the
 
 ## Viewing and Managing Feed Versions
 
-The Feed Version navigator enables you to browse through all available versions of a given feed using the `←` and `→` buttons (or view a list of all versions). You can also use this interface to:
+The Feed Version navigator allows you to browse through all available versions of a given feed using the `←` and `→` buttons (or view a list of all versions). You can also use this interface to:
 
 - Download a Feed Version to your local machine as a GTFS data file.
 - Load a version into the Editor.

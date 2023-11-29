@@ -2,7 +2,7 @@
 
 ## Conceptual Overview
 
-The GTFS Data Manager makes the creation, updates, validation and deployment of GTFS data feeds easier.
+The GTFS Data Manager enables exchange and coordination of data creation, updates, validation and deployment of GTFS data feeds for transit schedules.
 
 GTFS producers (transit operators, local governments, etc.) can share existing feeds or use the build function in GTFS Editor to create and maintain feeds. GTFS creators can use the built in validator to check for potential issues.
 

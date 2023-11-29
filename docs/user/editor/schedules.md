@@ -4,8 +4,6 @@ The schedule editor allows for the creation of trips/frequencies for any combina
 
 ![calendar-tab](https://datatools-builds.s3.amazonaws.com/docs/schedules/calendar-tab.png)
 
-## Terminology
-
 ### Calendars
 Transit calendars in GTFS are used to define the days of the week on which transit services are available. See the [GTFS specification calendar reference](https://gtfs.org/schedule/reference/#calendartxt) for more information.
 
@@ -40,7 +38,7 @@ To start editing a calendar, click on `+ Create first calendar` if this is the f
 <br>
 
 ## Editing/Creating Exceptions
-To start editing an exception, select any existing exception (if applicable) on the left pane. You will be able to edit properties such as exception name, customize the exception type, add calendars to add, remove or swap and the time range the exception is applied to. To make a new exception, click on `New exception` on the top left of the pane.
+To start editing an exception, select any existing exception (if applicable) on the left pane. You will be able to edit properties such as exception name, customize the exception type, select calendars to add, remove or swap and the time range the exception is applied to. To make a new exception, click on `New exception` on the top left of the pane.
 
 ![new-exception](https://datatools-builds.s3.amazonaws.com/docs/schedules/new-exception.png)
 
@@ -127,10 +125,12 @@ The following time formats are automatically recognized and converted:
 - 24-hr
     - `13:00:00`
     - `13:00`
+    - `1300`
 - 12-hr
-    - `1:00p`
+    - `1pm`
     - `1:00pm`
     - `1:00 pm`
+    - `1:00:00pm`
     - `1:00:00 pm`
 
 ### Tutorial Video: Editing/Creating Timetables

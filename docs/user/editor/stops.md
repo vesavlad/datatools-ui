@@ -20,10 +20,20 @@ To create a new stop, **right-click on the map** in the location you would like 
 
 ### Editing a stop
 Once a stop is created or selected, the following parameters are required:
-- **Name:** View the [GTFS reference](https://gtfs.org/schedule/best-practices/#stopstxt) for stop naming conventions
-- **Location:** These are defined with latitude and longitude. **Note:** Stop locations should have an error of no more than four meters when compared to the actual stop position.
+- **Stop ID (`stop_id`):** Identifies a stop, station, or station entrance.
+- **Location (`stop_lat/stop_lon`):** These are defined by latitude and longitude. **Note:** Stop locations should have an error of no more than four meters when compared to the actual stop position.
 
-Optionally, parameters like the zone ID, parent station or stop timezone can be defined.
+Optionally, additional parameters can be included such as:
+- **Stop Code (`stop_code`):** A short code that uniquely identifies a stop for passengers.
+- **Stop Name (`stop_name`):** The name of the location for a stop.
+- **Stop Description (`stop_desc`):** A description providing additional information about the stop.
+- **Zone ID (`zone_id`):** The fare zone for a stop.
+- **Stop Timezone (`stop_timezone`):** Timezone of the stop.
+- **Level ID (`level_id`):** Level of the location.
+- **Platform Code (`platform_code`):** Code that identifies the platform for a stop. For stations with multiple platforms.
+- **Parent Station (`parent_station`):** Defines the hierarchy of stops in `stops.txt`.
+- **Wheelchair Boarding (`wheelchair_boarding`):** A value (0, 1, or 2) that identifies whether wheelchair boardings are possible at the stop.
+
 ### Moving a stop
 
 To move a selected stop, **click and drag the stop to the new location**. Or, if already you know the latitude and longitude coordinates, you can copy these into the text fields. After moving the stop, click save to keep the changes.
