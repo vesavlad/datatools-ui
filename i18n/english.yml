@@ -58,6 +58,9 @@ components:
     deployments: Deployments
     projects: Projects
     root: Explore
+  CalendarSelect:
+    exceptionBasedCalendar: (Exception based calendar)
+    selectCalendar: " Select calendar..."
   ConfirmModal:
     cancel: Cancel
     ok: OK
@@ -331,6 +334,9 @@ components:
     createStop: Right-click a location on map to create a new stop
     editSchedules: Edit schedules
     name: Name
+  ExceptionCalendarSelector: 
+    selectCalendar: Select calendar...
+    unnamedDefault: "[unnamed]"
   ExceptionDate: 
     addRange: Add range
     dateRemoved: ⓘ Date has been removed. Date entered is already included in an existing range or single date!
@@ -1193,6 +1199,24 @@ components:
       patterns: "%num% Patterns"
       stops: "%num% Stops"
       trips: "%num% Trips"
+  ScheduleExceptionForm:
+    addDate: Add date
+    customServiceID: Custom service ID
+    dates: Dates
+    exceptionBasedService: Exception Based Service
+    exceptionName: Exception name*
+    noDatesSpecified: No dates specified
+    noService: No Service
+    onTheseDates: On these dates*
+    ranges: Ranges
+    runFollowing: "Run the following schedule:"
+    selectCalendar: Select calendar to run*
+    selectCalendarToAdd: "Select calendars to add (optional):"
+    selectCalendarToRemove: "Select calendars to remove (optional):"
+    selectExemplar: -- Select exception type --
+    swapAddOrRemove: Swap, add, or remove
+    thanksgivingDay: Thanksgiving Day
+    unnamedDefault: "[unnamed]"
   SelectFileModal:
     ok: OK
     cancel: Cancel
@@ -1497,6 +1521,8 @@ components:
     save: Save
   Validation:
     agencyRequired: Field must be populated for feeds with more than one agency.
+    conflictingServiceId: Service ID already exists in a standard calendar!
+    customServiceId: Custom service ID
     dateServiceIdCombinationDuplicate: Date (%exceptionDate%) and Service ID (%serviceId%) combination cannot appear more than once for all exceptions.
     idMustBeUnique: Identifier must be unique.
     idRequired: Identifier is required if more than one agency exists.
