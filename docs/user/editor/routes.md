@@ -5,7 +5,7 @@ In GTFS, a route is a group of trips that follow one or more patterns and operat
 
 To begin editing routes, click the bus (🚍) button on the lefthand navigation bar.
 
-![edit-routes](https://datatools-builds.s3.amazonaws.com/docs/patterns/edit-routes.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/patterns/edit-routes.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px; width: 600px;">
 
 Choose a route from the list or search by route name in the dropdown. To create a new route, click `New route` or `+ Create first route` if this is the first route being created. 
 

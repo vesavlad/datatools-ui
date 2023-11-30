@@ -28,16 +28,16 @@ For non-administrative users, permissions may be assigned on an individual basis
 
 To create or manage users, you must be logged in as either an application-level or organization-level administrator. To do so, navigate to the `Home` page and click on the `Admin` button located in the top right-hand corner. This action will grant you access to the user management console, where you will find a comprehensive list of all users within the system:
 
-![user-admin](https://datatools-builds.s3.amazonaws.com/docs/intro/user-admin.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/user-admin.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 Click `Edit` next to a user name to see an expanded user profile where specific permissions can be set:
 
-![user-profile](https://datatools-builds.s3.amazonaws.com/docs/intro/user-profile.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/user-profile.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 
 To create a new user, click the `Create User` button:
 
-![create-user](https://datatools-builds.s3.amazonaws.com/docs/intro/create-user.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/create-user.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 You will be asked to provide an email address (which serves as the user's username), an initial password for the user, and any initial permission settings. Once created, the user will receive a confirmation email at the specified email address.
 
@@ -50,7 +50,6 @@ While logged out, click the `Log In` button and then "Don't remember your passwo
 
 ### If Logged In
 Click the user icon at the bottom of the lefthand sidebar and click `Change Password` to submit your email address.
-
-![pass-logged-in](https://datatools-builds.s3.amazonaws.com/docs/intro/password-reset-logged-in.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/password-reset-logged-in.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 **Note:** if you don't receive a password reset email within a few minutes, please check your spam/junk folder.

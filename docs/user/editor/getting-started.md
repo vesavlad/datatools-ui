@@ -26,7 +26,7 @@ Some tables are nested underneath these primary tables. Here's how to find them 
 
 In the bottom, righthand corner of the Editor, you'll find the quick access toolbar that has a few convenient features:
 
-![quick-access-toolbar](https://datatools-builds.s3.amazonaws.com/docs/intro/quick-access-toolbar.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/quick-access-toolbar.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px; width: 500px;">
 
 From left to right, these functions are:
 

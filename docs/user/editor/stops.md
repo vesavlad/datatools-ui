@@ -42,7 +42,7 @@ To move a selected stop, **click and drag the stop to the new location**. Or, if
 
 To view all stops for a feed, hover over the map layers icon (in the top, lefthand corner of the map) and turn on the `Stop locations` layer. When you do, you'll see all of the stops (which appear as grey circles) for the feed even at wide zoom levels. This layer can be viewed whether or not the stop list is visible, so it can be helpful for users who would like to view stop locations alongside routes or trip patterns.
 
-![view-all-stops](https://datatools-builds.s3.amazonaws.com/docs/stops/view-all-stops.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/stops/view-all-stops.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 Clicking on a stop shown in this layer will select the stop for editing, but be careful—it can be tricky to select the right stop from very far away!
 
