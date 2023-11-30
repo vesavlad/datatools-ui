@@ -76,9 +76,9 @@ Follow the steps below to configure Feed Transformations for an existing Feed So
 3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified and each will be applied to the incoming GTFS file in the order in which they are defined.
 
 The types of feed transformations include:
-- **Normalize field transformation:** Standardize or the values within the GTFS data.
-- **Preserve custom fields transformation:** This transformation prevents custom, user-added fields in GTFS data from getting lost.
-- **Add custom file transformation:** Include custom files in the GTFS data.
+- **Normalize field transformation:** Standardization of values within a specific GTFS field according to preset rules.
+- **Preserve custom fields transformation:** Prevents custom, user-added fields in GTFS data from getting lost.
+- **Add custom file transformation:** Includes custom files in the GTFS data.
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/configure-feed-transformations.png)
 
