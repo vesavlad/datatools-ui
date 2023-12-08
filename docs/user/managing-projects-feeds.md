@@ -70,6 +70,12 @@ Data Tools now support **Feed Transformations**, which can automatically apply a
 
 2. **Replace File From String** - any file in an incoming GTFS (e.g., `feed_info.txt`) can be overwritten or inserted with user-defined CSV data.
 
+3. **Normalize Field:** Standardization of values within a specific GTFS field according to preset rules.
+
+4. **Preserve Custom Fields:** Prevents custom, user-added fields in GTFS data from getting lost.
+
+5. **Add Custom File:** Includes custom files in the GTFS data.
+
 ### Configuring Feed Transformations
 
 Follow the steps below to configure Feed Transformations for an existing Feed Source:
@@ -77,11 +83,6 @@ Follow the steps below to configure Feed Transformations for an existing Feed So
 1. Select a Feed Source and click on `Settings > Feed Transformations`.
 2. From here, click on `Add transformation` to begin creating a new set of rules for incoming GTFS feeds. Your first ruleset will automatically apply to GTFS that is fetched automatically and manually uploaded, but this can be changed for each ruleset to apply to any of the retrieval methods listed in [Creating Feed Versions](#creating-feed-versions).
 3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified and each will be applied to the incoming GTFS file in the order in which they are defined.
-
-The types of feed transformations include:
-- **Normalize field transformation:** Standardization of values within a specific GTFS field according to preset rules.
-- **Preserve custom fields transformation:** Prevents custom, user-added fields in GTFS data from getting lost.
-- **Add custom file transformation:** Includes custom files in the GTFS data.
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/configure-feed-transformations.png)
 
