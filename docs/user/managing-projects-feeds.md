@@ -11,6 +11,9 @@ Projects are created from the main Project listing page. Click the `New Project`
 Clicking on a project in the main project listing will take you to the detailed project profile page:
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-settings.png)
+
+The **Settings** tab can be expanded to reveal optional properties that can be specified for the project. These include the location of the project's geographic coverage area (specified as a rectangular region) and the default time zone. These values, when provided, are used to populate the corresponding feed-level properties when creating new feeds within this project.
+
 ## Creating a Feed Source
 
 To the left of the Project Settings panel is the **Feed Sources** panel. Feed Sources are the core of a project, and are documented in more detail below. 
