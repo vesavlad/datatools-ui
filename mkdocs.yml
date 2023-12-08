@@ -20,14 +20,14 @@ nav:
   - Schedules: 'user/editor/schedules.md'
   - Fares: 'user/editor/fares.md'
 - Deploying to OTP:
-  - Overview: user/otp-deployment.md
-  - Setting up AWS servers: user/setting-up-aws-servers.md
-  - Adding a deployment server: user/add-deployment-server.md
-  - Deploying GTFS feeds to OTP: user/deploying-feeds.md
+  - Overview: 'user/otp-deployment.md'
+  - Setting up AWS servers: 'user/setting-up-aws-servers.md'
+  - Adding a deployment server: 'user/add-deployment-server.md'
+  - Deploying GTFS feeds to OTP: 'user/deploying-feeds.md'
 - For Developers:
-  - Deployment: dev/deployment.md
-  - Development: dev/development.md
-  - Migration: dev/migration.md
+  - Deployment: 'dev/deployment.md'
+  - Development: 'dev/development.md'
+  - Migration: 'dev/migration.md'
 - Appendices: 
   - GTFS Validation Warnings: 'user/appendix-gtfs-warnings.md'
 
