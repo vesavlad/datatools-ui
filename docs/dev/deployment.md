@@ -153,7 +153,7 @@ AUTH0_TOKEN: your-auth0-api-token
 
 **Note**: To generate the `api_token`, go to Documentation > Management API. After adding scopes, your token will appear in the input field.
 
-![auth0](https://datatools-builds.s3.amazonaws.com/docs/auth0/auth0-token-generator.png)
+<img src="https://datatools-builds.s3.amazonaws.com/docs/auth0/auth0-token-generator.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
 To allow for the creation, deletion and editing of users you must generate a token for the following scopes:
 
