@@ -90,7 +90,7 @@ Follow the steps below to configure Feed Transformations for an existing Feed So
 
 After configuring all the Feed Transformations, you can import a new GTFS file using one of the retrieval methods you specified for your ruleset. Once the GTFS file has been processed, a summary of the transformations is accessible by hovering over the wrench icon visible in the Feed Version panel.
 
-![screenshot](../img/feed-transformation-summary.png)
+![screenshot](https://datatools-builds.s3.amazonaws.com/docs/intro/feed-transformation-summary.png)
 
 A more in depth summary is available under the Transformation Results tab on the left sidebar. This panel will show you the modifications made to each file in the feed, along with how many rows were added, deleted, or modified. 
 
