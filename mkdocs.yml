@@ -28,6 +28,8 @@ nav:
   - Deployment: 'dev/deployment.md'
   - Development: 'dev/development.md'
   - Migration: 'dev/migration.md'
+  - Localization: 'dev/localization.md'
+  - API Interaction: 'dev/api_interaction.md'
 - Appendices: 
   - GTFS Validation Warnings: 'user/appendix-gtfs-warnings.md'
 
