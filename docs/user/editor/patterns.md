@@ -1,21 +1,21 @@
 # Trip Patterns
 
-### Patterns
+## Patterns
 Patterns refer to the recurring schedules and frequencies of transit trips. They can be thought of as a template for a particular route, indicating the days of the week and times of day that trips will be available, as well as the frequency of service during those periods.
 
 ## Editing/Creating Trip Patterns
 
-To begin editing trip patterns, first click the `Routes` tab (outlined in red). Then, select or create a route Click the `Trip patterns` tab, and start editing any relevant fields including: 
+To begin editing trip patterns, first click the `Routes` tab (outlined in red). Then, click or create a route Click the `Trip patterns` tab, and start editing any relevant fields including: 
 
 <!-- TODO: add transitwand to GTFS Editor -->
 <!-- - Transitwand id (optional) – the trip pattern can be imported from a Transitwand route trace, if you have one enter the phone id here and click the ‘Load from Transitwand’ box. -->
-- **Name:** the name of the pattern within the route, for example: "27 stops from Willowridge Rd at Richgrove Dr to Kipling Station (268 trips)"
-- **Type:** specify whether the pattern uses timetables or schedules. For more information on the differences between schedules and timetables, consult [Schedules](schedules.md)
-- **Direction:** specify whether the pattern is inbound or outbound. This corresponds to the `direction_id` field in GTFS. All trips associated with this pattern will be assigned the direction provided here.
+- **Name:** The name of the pattern within the route is initially set by default to a designation like "27 stops from Willowridge Rd at Richgrove Dr to Kipling Station (13 trips)." However, it can be customized to a more meaningful label if desired.
+- **Type:** Specifies whether the pattern uses timetables or schedules. For more information on the differences between schedules and timetables, consult [Schedules](schedules.md).
+- **Direction:** Specifies whether the pattern is inbound or outbound. This corresponds to the `direction_id` field in GTFS. All trips associated with this pattern will be assigned the direction provided here.
 - **Editing schedules:**
 Click `Edit schedules` to begin creating or editing trips/frequencies for a trip pattern. You will be redirected to the Schedule Editor. For more information on creating schedules for a pattern, see [Trips](schedules).
 
-To add a pattern, select the `+ New pattern` button (highlighted in yellow).
+To add a pattern, click the `+ New pattern` button (highlighted in yellow).
 
 ![edit-pattern](https://datatools-builds.s3.amazonaws.com/docs/patterns/edit-pattern.png)
 
@@ -27,7 +27,7 @@ The pattern toolbar contains several helpful buttons to help with the pattern ed
 - **Zoom to pattern extents:**
 Clicking the search (🔍) button (in the top toolbar) with a pattern selected adjusts the map view to show the entire pattern you are editing.
 - **Duplicating pattern:**
-Used to create a similar, but different trip pattern. When duplicating of the active pattern, it's name becomes `[Pattern name] copy`.
+Used to create a similar, but different trip pattern. When duplicating of the active pattern, its name becomes `[Pattern name] copy`.
 - **Reverse pattern:**
 To reverse the sequence of stops for a pattern, click the button with opposing arrows. Note: this is a destructive action and should usually only be used after duplicating a pattern.
 - **Delete pattern:** Deletes the active pattern. Note: deleted patterns cannot be recovered.
@@ -35,9 +35,9 @@ To reverse the sequence of stops for a pattern, click the button with opposing a
 
 ## Stop sequence
 ### Adding stops
-To start creating a pattern, click on the `+ Add stop` button. From here, zoom in on the map and add stops by clicking on them and clicking the green plus symbol: `+`. 
+To start creating a pattern, click the `+ Add stop` button. From here, zoom in on the map and add stops by clicking on them and clicking the green plus symbol: `+`. 
 
-Alternatively, scroll to the end of the stop sequence and select `+ Add stop by name` which will provide a dropdown of options to select from. From there, you'll have the option to add the stop to the end or to the beginning of the pattern.
+Alternatively, scroll to the end of the stop sequence and click `+ Add stop by name` which will provide a dropdown of options to click from. From there, you'll have the option to add the stop to the end or to the beginning of the pattern.
 
 <img src="https://datatools-builds.s3.amazonaws.com/docs/patterns/pattern-add-stop.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 
@@ -135,7 +135,7 @@ There are a few different editing modes that allow for the quick and easy creati
 - **Add stop at interval:** At each click on the map, stops are generated along the auto-generated pattern extended to the map click at the user-defined spacing interval from 100 to 2000 meters.
 - **Add stop at intersection:** (experimental, not available in all regions) - at each click on the map, stops are generated along the auto-generated pattern extended to the map click according to the user-defined parameters:
     - **Offset from intersection:** Distance the stop should be placed from the intersection
-    - **Before/after:** Whether stop should be placed before or after intersection
+    - **Before/after:** Whether the stop should be placed before or after intersection
     - **Every *n* intersections:** The number of intersections at which each new stop should be placed
 
 **Note**: the last three advanced editing modes should only be used when creating routes in new areas where stops don't already exist.

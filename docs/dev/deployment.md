@@ -143,7 +143,7 @@ AUTH0_CLIENT_ID: your-auth0-client-id
 
 Update the following properties in `datatools-server` and `env.yml` to reflect the secure Auth0 application settings.
 
-**Note:** For older Auth0 accounts or tenants, utilizing the Auth0 secret token with the HS256 algorithm is possible. However, newer Auth0 tenants will need to specify the absolute path of their `.pem` file in the `AUTH0_PUBLIC_KEY` property. This public key only needs to be downloaded one time for your Auth0 tenant at `https://[your_domain].auth0.com/pem`.
+**Note:** For older Auth0 accounts or tenants, it is possible to use the Auth0 secret token with the HS256 algorithm is possible. However, newer Auth0 tenants will need to specify the absolute path of their `.pem` file in the `AUTH0_PUBLIC_KEY` property. This public key only needs to be downloaded one time for your Auth0 tenant at `https://[your_domain].auth0.com/pem`.
 
 ```yaml
 AUTH0_SECRET: your-auth0-client-secret # used for pre-September 2017 Auth0 accounts
@@ -166,7 +166,7 @@ To allow for the creation, deletion and editing of users you must generate a tok
 
 If using OIDC-conformant clients/APIs (which appears to be mandatory for new Auth0 tenants), you must set up a custom Auth0 action to add `app_metadata` and `user_metadata` to the user's id token (Note: this is not the default for older, "legacy" Auth0 accounts).
 
-To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click on `Create Action`. Fill in the action name and pick a recommended runtime, and click on `Create`. Modify the function `onExecutePostLogin` as follows, then click Save Draft:
+To set up the action, go to Actions > Flows > Login, then under Add action > Custom, click `Create Action`. Fill in the action name and pick a recommended runtime, and click `Create`. Modify the function `onExecutePostLogin` as follows, then click `Save Draft`:
 
 ```js
 exports.onExecutePostLogin = async (event, api) => {
@@ -178,10 +178,10 @@ exports.onExecutePostLogin = async (event, api) => {
 };
 ```
 If you want the rule to apply only to specific clients, you can retain the conditional block that checks the `context.clientID` value. Otherwise, you can remove this conditional block if it's not needed.
-This rule will ensure that app_metadata and user_metadata are included in the user's token, as required for OIDC-conformant clients/APIs in new Auth0 tenants.
+This rule will ensure that `app_metadata` and `user_metadata` are included in the user's token, as required for OIDC-conformant clients/APIs in new Auth0 tenants.
 
-You can test the action with mock token data using the Test tab. Once ready, click Deploy, then click Back to Flow.
-In the diagram, drag the action between the Start and Complete steps, then click Apply.
+You can test the action with mock token data using the Test tab. Once ready, click `Deploy`, then click `Back to Flow`.
+In the diagram, drag the action between the Start and Complete steps, then click `Apply`.
 You can test that the action is correctly executed by logging-in to datatools with an admin user
 and checking that the Admin functionality is available.
 

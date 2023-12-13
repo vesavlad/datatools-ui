@@ -20,7 +20,7 @@ To the left of the Project Settings panel is the **Feed Sources** panel. Feed So
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/project-feed-sources.png)
 
-Feed Sources are created from a Project's main profile page. Click the `+New` button from the `Actions` dropdown to create a new feed; Specify a name and optional feed source URL and click on `Save`. You may also adjust whether to automatically fetch the feed from the source URL and to make the feed deployable. 
+Feed Sources are created from a Project's main profile page. Click the `+New` button from the `Actions` dropdown to create a new feed; Specify a name and optional feed source URL and click `Save`. You may also adjust whether to automatically fetch the feed from the source URL and to make the feed deployable. 
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/create-feed-source.png)
 
@@ -28,7 +28,7 @@ Feed Sources are created from a Project's main profile page. Click the `+New` bu
 
 After a Feed Source has been created, it will appear in the Project's table of Feed Sources. From this table, a basic summary of information for the feed is presented (including if the latest version has expired and how many validation issues it has).
 
-To access the Feed Source Profile for this feed, click on its name. 
+To access the Feed Source Profile for this feed, click its name. 
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/feed-profile.png)
 
@@ -50,21 +50,21 @@ At the top of the page is a set of tabs, which include:
 
 Feed Versions are created from the main Feed Source profile page. There are three methods for creating new versions:
 
-1. **Manually Upload a File**: Select `Upload` from the `+ Create new version` dropdown to select a GTFS file from your local machine.
+1. **Manually Upload a File**: Click `Upload` from the `+ Create new version` dropdown to click a GTFS file from your local machine.
 
-2. **Fetch From A Remote URL**: Select `Fetch` from the `+ Create new version` dropdown. **Note:** to fetch a new version, the "Feed source fetch URL" property must be set to a valid GTFS URL under `Feed Source > Settings`.
+2. **Fetch From A Remote URL**: Click `Fetch` from the `+ Create new version` dropdown. **Note:** to fetch a new version, the "Feed source fetch URL" property must be set to a valid GTFS URL under `Feed Source > Settings`.
 
-3. **Import From the GTFS Editor**: Select `From snapshot` from the `+ Create new version` dropdown. The list of snapshots should now be visible showing any available snapshots of the feed in the Editor. Select the desired snapshot by clicking the "Publish" button to publish the snapshot as a new version.
+3. **Import From the GTFS Editor**: Click `From snapshot` from the `+ Create new version` dropdown. The list of snapshots should now be visible showing any available snapshots of the feed in the Editor. Select the desired snapshot by clicking the "Publish" button to publish the snapshot as a new version.
 
-4. **Service Period Merge** (certain Data Tools configurations only): If a Feed Source has two or more Feed Versions, a new Feed Version can be created by merging two versions representing a transit agency's service over different time periods. While viewing a particular Feed Version, click on `Merge with version` (underneath the map view) to select which past version you would like to merge with.
+4. **Service Period Merge** (certain TRANSIT-data-tools configurations only): If a Feed Source has two or more Feed Versions, a new Feed Version can be created by merging two versions representing a transit agency's service over different time periods. While viewing a particular Feed Version, click `Merge with version` (underneath the map view) to click which past version you would like to merge with.
 
-5. **Regional Merge**: For Projects that contain multiple Feed Sources across a region, it can be useful to merge multiple transit agencies together into a combined GTFS feed for the entire region. While viewing a Project's list of Feed Sources, click on `Actions > Merge all` to produce a combined GTFS file for all Feed Sources.
+5. **Regional Merge**: For Projects that contain multiple Feed Sources across a region, it can be useful to merge multiple transit agencies together into a combined GTFS feed for the entire region. While viewing a Project's list of Feed Sources, click `Actions > Merge all` to produce a combined GTFS file for all Feed Sources.
 
 **Note**: when uploading or fetching a feed, and the file being uploaded or fetched is not different from the latest version, no new Feed Version will be created.
 
 ## Feed Transformations
 
-Data Tools now support **Feed Transformations**, which can automatically apply a set of changes to each new GTFS feed loaded into the system. This feature is especially useful for applying repeatable changes to, or inserting supplementary files into, GTFS feeds that require enhancement. It serves as a critical stopgap for improving GTFS data from systems that cannot be modified, such as scheduling software with a rigid export format. The currently supported transformation types are:
+TRANSIT-data-tools now supports **Feed Transformations**, which can automatically apply a set of changes to each new GTFS feed loaded into the system. This feature is especially useful for applying repeatable changes to, or inserting supplementary files into, GTFS feeds that require enhancement. It serves as a critical stopgap for improving GTFS data from systems that cannot be modified, such as scheduling software with a rigid export format. The currently supported transformation types are:
 
 1. **Replace File From Version** - any file in an incoming GTFS (e.g., `feed_info.txt`) can be overwritten or inserted with a file extracted from a previously loaded feed version.
 
@@ -80,9 +80,9 @@ Data Tools now support **Feed Transformations**, which can automatically apply a
 
 Follow the steps below to configure Feed Transformations for an existing Feed Source:
 
-1. Select a Feed Source and click on `Settings > Feed Transformations`.
-2. From here, click on `Add transformation` to begin creating a new set of rules for incoming GTFS feeds. Your first ruleset will automatically apply to GTFS that is fetched automatically and manually uploaded, but this can be changed for each ruleset to apply to any of the retrieval methods listed in [Creating Feed Versions](#creating-feed-versions).
-3. Click on `Add step to transformation` to select a transformation type and fill in the required fields for each type. Multiple transformations can be specified and each will be applied to the incoming GTFS file in the order in which they are defined.
+1. Select a Feed Source and click `Settings > Feed Transformations`.
+2. From here, click `Add transformation` to begin creating a new set of rules for incoming GTFS feeds. Your first ruleset will automatically apply to GTFS that is fetched automatically and manually uploaded, but this can be changed for each ruleset to apply to any of the retrieval methods listed in [Creating Feed Versions](#creating-feed-versions).
+3. Click `Add step to transformation` to click a transformation type and fill in the required fields for each type. Multiple transformations can be specified and each will be applied to the incoming GTFS file in the order in which they are defined.
 
 ![create-project](https://datatools-builds.s3.amazonaws.com/docs/intro/configure-feed-transformations.png)
 

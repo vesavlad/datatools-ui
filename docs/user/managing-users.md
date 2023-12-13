@@ -2,18 +2,18 @@
 
 ## Overview
 
-User accounts in the Transit Data Tools suite are managed via Auth0, a third-party authentication service. (For details on setting up Auth0 for use with this application, please refer to the Deployment documentation.)
+User accounts in the TRANSIT-data-tools suite are managed via Auth0, a third-party authentication service. (For details on setting up Auth0 for use with this application, please refer to the Deployment documentation.)
 
 Auth0 allows for access via internally defined user accounts as well as third-party identity providers (e.g. social networking sites); however, this documentation only addresses internal accounts. Internal accounts employ username-password authentication, with a user's email address serving as the unique username.
 
 ## User Permissions
 
-The Data Tools suite uses a system of user permissions to control access to various functions within the application.
+The TRANSIT-data-tools suite uses a system of user permissions to control access to various functions within the application.
 
 ### Admin users
 Three types of administrator-level users exist:
 
-- **Application-level administrator**: has full access to the Data Tools suite, including access to all projects and feed sources, the ability to create new projects, and the ability to create and manage users.
+- **Application-level administrator**: has full access to the TRANSIT-data-tools suite, including access to all projects and feed sources, the ability to create new projects, and the ability to create and manage users.
 - **Organization-level administrator**: has full access to all projects and feed sources for an organization. **Note:** this user type is only for users of non-enterprise implementations (i.e., https://gtfs.ibi-transit.com).
 - **Project-level administrator**: holds full access to a single project, including all project-level permissions. Is not able to create new projects or administer users.
 
@@ -21,12 +21,12 @@ Three types of administrator-level users exist:
 For non-administrative users, permissions may be assigned on an individual basis by choosing `Custom`. A non-administrative user's permissions can also be set to only apply to particular feeds within a project. By default, all users with project access have read-only access for all project feeds.
 
 #### User permissions examples
-1. A user may need edit privileges to only one feed source. In this case, the `Edit GTFS feeds` and the specific feed (e.g., Agency X) would be checked.
+1. A user may need edit privileges to only one feed source. In this case, click `Edit GTFS feeds` and the specific feed (e.g., Agency X) would be checked.
 2. Agencies may wish to grant access to users that can view basic reporting info, but should not have the ability to modify or manage anything in the application. Here, `Custom` should be selected, but no other permissions or feeds should be checked.
 
 ## Managing Users
 
-To create or manage users, you must be logged in as either an application-level or organization-level administrator. To do so, navigate to the `Home` page and click on the `Admin` button located in the top right-hand corner. This action will grant you access to the user management console, where you will find a comprehensive list of all users within the system:
+To create or manage users, you must be logged in as either an application-level or organization-level administrator. To do so, navigate to the `Home` page and click the `Admin` button located in the top right-hand corner. This action will grant you access to the user management console, where you will find a comprehensive list of all users within the system:
 
 <img src="https://datatools-builds.s3.amazonaws.com/docs/intro/user-admin.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px;">
 

@@ -17,7 +17,7 @@ Timetable-based routes follow a fixed schedule in which the start time, end time
 Unlike the fixed nature of timetable-based trips, frequency-based trips run at regular intervals, with a fixed amount of time between consecutive trips. Frequency-based service offers more flexibility and easier adjustment to changing demand. Visit [GTFS specification frequency reference](https://gtfs.org/schedule/reference/#frequenciestxt) for more information.
 
 ## Editing/Creating Calendars
-To start editing a calendar, click on `+ Create first calendar` if this is the first calendar being added or click on an existing calendar to begin adding/editing its properties which include:
+To start editing a calendar, click `+ Create first calendar` if this is the first calendar being added or click an existing calendar to begin adding/editing its properties which include:
 
 - **Service ID:** Unique ID for the calendar
 - **Description:** Optional description for calendar (defaults to initial days of week specified)
@@ -38,7 +38,7 @@ To start editing a calendar, click on `+ Create first calendar` if this is the f
 <br>
 
 ## Editing/Creating Exceptions
-To start editing an exception, select any existing exception (if applicable) on the left pane. You will be able to edit properties such as exception name, customize the exception type, select calendars to add, remove or swap and the time range the exception is applied to. To make a new exception, click on `New exception` on the top left of the pane (highlighted in yellow).
+To start editing an exception, click any existing exception (if applicable) on the left pane. You will be able to edit properties such as exception name, customize the exception type, click calendars to add, remove or swap and the time range the exception is applied to. To make a new exception, click `New exception` on the top left of the pane (highlighted in yellow).
 
 <img src="https://datatools-builds.s3.amazonaws.com/docs/schedules/new-exception.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px; width: 600px;">
 
@@ -72,7 +72,7 @@ There are a number of built-in exception types (or available schedules to run) t
 ## Editing/Creating Timetables
 To begin editing a timetable, click the `Edit schedules` button in the top left corner of the screen (highlighed in yellow).
 
-(Alternatively, if you are in the `Routes` tab (see [Routes](/user/editor/routes/)), select an existing route or route click the `New route` button --> select the `Trip patterns` tab --> select a pattern --> select `Use timetables` in the `Type:` dropdown --> select the `Edit schedules` button)
+(Alternatively, if you are in the `Routes` tab (see [Routes](/user/editor/routes/)), click an existing route or route click the `New route` button --> click the `Trip patterns` tab --> select a pattern --> click `Use timetables` in the `Type:` dropdown --> click the `Edit schedules` button)
 
 <img src="https://datatools-builds.s3.amazonaws.com/docs/schedules/edit-schedules.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px; width: 600px;">
 
@@ -146,7 +146,7 @@ The following video demonstrates the creation and editing of timetables describe
 
 <br>
 ## Editing/Creating Frequencies
-To edit/create frequencies, navigate to the `Routes` tab (see [Routes](/user/editor/routes/)), select an existing route or route click the `New route` button --> select the `Trip patterns` tab --> select a pattern --> select `Use frequencies` in the 'Type:` dropdown --> select the `Edit schedules` button
+To edit/create frequencies, navigate to the `Routes` tab (see [Routes](/user/editor/routes/)), click an existing route or route click the `New route` button --> click the `Trip patterns` tab --> click a pattern --> click `Use frequencies` in the 'Type:` dropdown --> click the `Edit schedules` button
 
 Frequency details include:
 

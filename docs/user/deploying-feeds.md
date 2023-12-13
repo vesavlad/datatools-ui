@@ -4,7 +4,7 @@ Assumptions:
 
 * [X] You have [loaded a GTFS feed into a project](./managing-projects-feeds.md).
 * [X] You have a deployment server available [(example: AWS)](./add-deployment-server.md).
-* [X] [An osm-lib server has been set up](https://github.com/conveyal/osm-lib) for Data Tools to fetch Open Streets Map (OSM) data.
+* [X] [An osm-lib server has been set up](https://github.com/conveyal/osm-lib) for TRANSIT-data-tools to fetch Open Streets Map (OSM) data.
 
 ## Executing a deployment
 
@@ -32,7 +32,7 @@ The pane also has an option to upload Custom POI CSV files. These files contain 
 
 ## Watching deployments take place
 
-After you click on `Deploy`, you can watch the deployment progress from the right-hand panel:
+After you click `Deploy`, you can watch the deployment progress from the right-hand panel:
 
 1. The data bundle is uploaded to S3.
 2. One EC2 server is commissioned.
