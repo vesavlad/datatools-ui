@@ -1,5 +1,7 @@
 # Fares
 
+## Fares Overview
+
 ### Fare attributes
 
 Fare attributes describe the basic information about a fare including the price, currency type and transfer information. See the [GTFS specification fare attribute reference](https://gtfs.org/schedule/reference/#fare_attributestxt) for more information.
@@ -12,18 +14,18 @@ Fare rules describe how much riders pay to use a transit system, based on factor
 
 To begin editing fares, click the fare ticket button on the lefthand navigation bar (outlined in red).
 
-Choose a fare from the list to begin editing. To create a new fare, click `+ New fare`, or, if this is the first fare being created for this feed, select `+ Create first fare` (highlighted in yellow).
+Choose a fare from the list to begin editing. To create a new fare, click `+ New fare`, or, if this is the first fare being created for this feed, click `+ Create first fare` (highlighted in yellow).
 
 ![fare-tab](https://datatools-builds.s3.amazonaws.com/docs/fares/fare-tab.png)
 
 ### Edit fare attributes
-In the `Attributes` tab, required and optional information about the fare can be inputted, like `fare_id`, `price` and `currency_type`.
+In the `Attributes` tab, required and optional information about the fare can be entered, like `fare_id`, `price` and `currency_type`.
 
 **Note: Be sure to click the save button (💾) after changes to fare attributes or fare rules are made. Clicking save after adding attributes will allow you to edit fare rules.**
 
 ### Edit fare rules
 
-To define fare rules, you must first create fare zones, which is explained in the next section.
+To define fare rules, you must first create fare zones, which are explained in the next section.
 
 To edit fare rules, you must first create and save a fare with attributes. After choosing a fare, click the `Rules` tab and define one or more rules for this fare using the following types:
 

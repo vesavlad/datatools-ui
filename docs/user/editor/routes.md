@@ -38,7 +38,7 @@ The following fields are optional:
 - **Route branding URL:** A link to a webpage with route branding information
 - **Route branding asset:** A route image
 
-Once all the required fields, and any of the desired optional fields, are filled in click `Save`.
+Once all the required fields and any of the desired optional fields are filled in, click `Save`.
 
 **Note:** as with all newly created items (except patterns), the new route will not be saved until the save icon (💾) is clicked.
 

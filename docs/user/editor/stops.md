@@ -30,7 +30,7 @@ Optionally, additional parameters can be included such as:
 - **Zone ID (`zone_id`):** The fare zone for a stop.
 - **Stop Timezone (`stop_timezone`):** Timezone of the stop.
 - **Level ID (`level_id`):** Level of the location.
-- **Platform Code (`platform_code`):** Code that identifies the platform for a stop. For stations with multiple platforms.
+- **Platform Code (`platform_code`):** Code that identifies the platform for a stop. Used with stations that have multiple platforms.
 - **Parent Station (`parent_station`):** Defines the hierarchy of stops in `stops.txt`.
 - **Wheelchair Boarding (`wheelchair_boarding`):** A value (0, 1, or 2) that identifies whether wheelchair boardings are possible at the stop.
 

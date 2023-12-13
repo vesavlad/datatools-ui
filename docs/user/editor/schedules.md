@@ -1,5 +1,6 @@
 # Schedules/Calendars
 
+## Schedule and Calendar Overview
 The schedule editor allows for the creation of trips/frequencies for any combination of route, pattern, and/or calendar. To manage or edit schedules or exceptions, navigate to the `Calendar` tab located in the left-hand menu:
 
 ![calendar-tab](https://datatools-builds.s3.amazonaws.com/docs/schedules/calendar-tab.png)
