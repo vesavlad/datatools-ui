@@ -53,7 +53,7 @@ components:
     sortBy: Sort By
     url: 'Feed download URL'
   Brand:
-    dataTools: TRANSIT-data-tools 
+    dataTools: Data Tools 
   Breadcrumbs:
     deployments: Deployments
     projects: Projects
@@ -791,7 +791,7 @@ components:
     changelog: Changelog
     contact: Contact
     copyright: Copyright
-    datatools: TRANSIT-data-tools
+    datatools: Data Tools
     guide: Guide
     home: Home
   MapModal:
@@ -1138,7 +1138,7 @@ components:
     copyright: Copyright
     existingUsers: Existing users
     here: here
-    learnMore: Learn more about TRANSIT-data-tools
+    learnMore: Learn more about Data Tools
     signInHere: sign in here
     viewDashboard: View dashboard
   RegionSearch:

@@ -36,7 +36,7 @@ Optionally, additional parameters can be included such as:
 
 ### Moving a stop
 
-To move a selected stop, **click and drag the stop to the new location**. Or, if already you know the latitude and longitude coordinates, you can copy these into the text fields. After moving the stop, click save to keep the changes.
+To move a selected stop, **click and drag the stop to the new location**. Or, if you already know the latitude and longitude coordinates, you can copy these into the text fields. After moving the stop, click save to keep the changes.
 
 ### View All Stops for a Feed
 
