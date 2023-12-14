@@ -1,8 +1,6 @@
-# Introduction
+# Getting Started
 
-## Getting started
-
-The GTFS Editor (or Editor) allows users to edit GTFS feeds imported from the Data Manager (see [Loading Feed Versions into Editor](../../user/managing-projects-feeds/#loading-feed-versions-into-editor)) or create GTFS feeds completely from scratch.
+The GTFS Editor (or Editor) allows users to edit GTFS feeds imported from the Data Manager (see [Managing Project & Feeds](../managing-projects-feeds.md)) or create GTFS feeds completely from scratch.
 
 ## Saving in the Editor
 
@@ -11,6 +9,8 @@ When editing routes, stop, calendars, and any other entities in the Editor, you 
 ## Navigating the Editor
 
 The primary tables in GTFS (feed info, routes, stops, calendars, and fares) all correspond to items in the lefthand navigation bar, which allow you to create, edit, or delete records for each of these tables.
+
+![nav-bar](https://datatools-builds.s3.amazonaws.com/docs/intro/nav-bar.png)
 
 Some tables are nested underneath these primary tables. Here's how to find them and what they're called in the Editor:
 
@@ -24,10 +24,9 @@ Some tables are nested underneath these primary tables. Here's how to find them 
 
 ## Quick access toolbar
 
-In the bottom, righthand corner of the Editor, you'll find the quick access toolbar that has a few convenient features you might need while editing.
-<div class="img-center">
-![quick access toolbar](../../img/quick-access-toolbar.png)
-</div>
+In the bottom, righthand corner of the Editor, you'll find the quick access toolbar that has a few convenient features:
+
+<img src="https://datatools-builds.s3.amazonaws.com/docs/intro/quick-access-toolbar.png" style="box-shadow: 3px 3px 3px gray; border-radius: 10px; width: 500px;">
 
 From left to right, these functions are:
 
