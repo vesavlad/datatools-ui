@@ -8,6 +8,9 @@ tmp/
 .tags
 *.pid
 
+# Ignore mobility data jar for building rules
+*.jar
+
 # Optional npm cache directory
 .npm
 
