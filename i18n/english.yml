@@ -578,7 +578,6 @@ components:
         custom: Use Custom Extract Bounds
         gtfs: Use GTFS-Derived Extract Bounds
         title: OSM Extract
-      title: Deployment
     routerConfig:
       brandingUrlRoot: Branding URL Root
       carDropoffTime: Car Dropoff Time
