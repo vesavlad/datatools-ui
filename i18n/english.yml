@@ -135,49 +135,6 @@ components:
     danger: Danger!
     success: Success!
     warning: Warning!
-  DeploymentSettings:
-    boundsPlaceholder: 'min_lon, min_lat, max_lon, max_lat'
-    buildConfig:
-      elevationBucket:
-        accessKey: Access Key
-        bucketName: S3 Bucket Name
-        secretKey: Secret Key
-      fares: Fares
-      fetchElevationUS: Fetch Elevation
-      save: Save
-      stationTransfers: Sta. Transfers
-      subwayAccessTime: Subway Access Time
-      title: Build Config
-    clear: Clear
-    manageServers: Manage deployment servers
-    osm:
-      bounds: Custom Extract Bounds
-      custom: Use Custom Extract Bounds
-      gtfs: Use GTFS-Derived Extract Bounds
-      title: OSM Extract
-    routerConfig:
-      brandingUrlRoot: Branding URL Root
-      carDropoffTime: Car Dropoff Time
-      driveDistanceReluctance: Drive Distance Reluctance
-      numItineraries: '# of itineraries'
-      requestLogFile: Request log file
-      stairsReluctance: Stairs Reluctance
-      title: Router Config
-      itineraryFilters:
-        nonTransitGeneralizedCostLimit: Non-Transit Generalized Cost Limit
-      updaters:
-        $index:
-          feedId: Feed ID
-          frequencySec: Frequency (in seconds)
-          sourceType: Source type
-          type: Type
-          url: URL
-        new: Add updater
-        title: Real-time updaters
-        placeholder: Updater name
-      walkSpeed: Walk Speed
-    save: Save
-    title: Deployment
   DeploymentVersionsTable:
     dateRetrieved: Date Retrieved
     errorCount: Error Count

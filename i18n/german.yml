@@ -136,46 +136,6 @@ components:
     danger: Gefahr!
     success: Erfolg!
     warning: Warnung!
-  DeploymentSettings:
-    boundsPlaceholder: min_lon, min_lat, max_lon, max_lat
-    buildConfig:
-      elevationBucket:
-        accessKey: Zugangs-Schlüssel
-        bucketName: S3 Bucket Name
-        secretKey: Secret Key
-      fares: Tarife
-      fetchElevationUS: Höhenmodell abrufen
-      save: Speichern
-      stationTransfers: Umstiege
-      subwayAccessTime: U-Bahn-Zugangszeiten
-      title: Build-Konfiguration
-    clear: Zurücksetzen
-    manageServers: Deployment-Server verwalten
-    osm:
-      bounds: Selbst-definierte Extrakt-Grenzen
-      custom: Benutze selbst-definierte Extrakt-Grenzen
-      gtfs: Grenzen aus GTFS ableiten
-      title: OSM-Extrakt
-    routerConfig:
-      brandingUrlRoot: Branding-URL Wurzel
-      carDropoffTime: PKW-Rückgabe-Zeit
-      numItineraries: '# of Reisevorschläge'
-      requestLogFile: Log-Datei anfordern
-      stairsReluctance: Treppen-Abneigung
-      title: Router Konfiguration
-      updaters:
-        $index:
-          defaultAgencyId: Standard-Betreiber ID
-          frequencySec: Frequenz (in Sekunden)
-          sourceType: Quellen-Typ
-          type: Typ
-          url: URL
-        new: Aktualisierer hinzufügen
-        placeholder: Aktualisierer-Name
-        title: Echtzeit-Aktualisierungs-Updater
-      walkSpeed: Geh-Geschwindigkeit
-    save: Speichern
-    title: Deployment
   DeploymentVersionsTable:
     dateRetrieved: Abrufdatum
     errorCount: Fehlerzahl

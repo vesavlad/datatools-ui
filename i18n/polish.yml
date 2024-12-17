@@ -139,46 +139,6 @@ components:
     danger: Uwaga!
     success: Sukces!
     warning: Ostrzeżenie!
-  DeploymentSettings:
-    boundsPlaceholder: min_lon, min_lat, max_lon, max_lat
-    buildConfig:
-      elevationBucket:
-        accessKey: Access Key
-        bucketName: S3 Bucket Name
-        secretKey: Secret Key
-      fares: Taryfy
-      fetchElevationUS: Fetch Elevation
-      save: Zapisz
-      stationTransfers: Transfery na stacji
-      subwayAccessTime: Godziny otwarcia metra
-      title: Build Config
-    clear: Wyczyść
-    manageServers: Manage deployment servers
-    osm:
-      bounds: Custom Extract Bounds
-      custom: Use Custom Extract Bounds
-      gtfs: Use GTFS-Derived Extract Bounds
-      title: Wyciąg z OSM
-    routerConfig:
-      brandingUrlRoot: Branding URL Root
-      carDropoffTime: Car Dropoff Time
-      numItineraries: '# of itineraries'
-      requestLogFile: Request log file
-      stairsReluctance: Stairs Reluctance
-      title: Router Config
-      updaters:
-        $index:
-          defaultAgencyId: Domyślny ID przewoźnika
-          frequencySec: Częstotliwość (w sekundach)
-          sourceType: Rodzaj źródła
-          type: Typ
-          url: URL
-        new: Add updater
-        placeholder: Updater name
-        title: Real-time updaters
-      walkSpeed: Walk Speed
-    save: Zapisz
-    title: Wdrożenie
   DeploymentVersionsTable:
     dateRetrieved: Data pozyskania
     errorCount: Licznik błędów
